@@ -9,7 +9,7 @@
                 <a href="#">Контакты</a>
             </div>    
             <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                <a href="#">Условия&nbspиспользования</a>
+                <a class="dc-long-padding" href="#">Условия&nbspиспользования</a>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">                
                 <a class="dc-socitem dc-instagram" href="#">
