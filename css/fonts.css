@@ -43,3 +43,39 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: "Lato-Semibold";
+    src: url("../fonts/Lato-Semibold/Lato-Semibold.eot");
+    src: url("../fonts/Lato-Semibold/Lato-Semibold.eot")format("embedded-opentype"),
+    url("../fonts/Lato-Semibold/Lato-Semibold.woff") format("woff"),
+    url("../fonts/Lato-Semibold/Lato-Semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Heavy";
+    src: url("../fonts/Lato-Heavy/Lato-Heavy.eot");
+    src: url("../fonts/Lato-Heavy/Lato-Heavy.eot")format("embedded-opentype"),
+    url("../fonts/Lato-Heavy/Lato-Heavy.woff") format("woff"),
+    url("../fonts/Lato-Heavy/Lato-Heavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-Hairline";
+    src: url("../fonts/Lato-Hairline/Lato-Hairline.eot");
+    src: url("../fonts/Lato-Hairline/Lato-Hairline.eot")format("embedded-opentype"),
+    url("../fonts/Lato-Hairline/Lato-Hairline.woff") format("woff"),
+    url("../fonts/Lato-Hairline/Lato-Hairline.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Drugs";
+    src: url("../fonts/Drugs/Drugs.eot");
+    src: url("../fonts/Drugs/Drugs.eot")format("embedded-opentype"),
+    url("../fonts/Drugs/Drugs.woff") format("woff"),
+    url("../fonts/Drugs/Drugs.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

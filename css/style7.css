@@ -1,2 +1,27 @@
+.payment__container {
+  padding-left: 0;
+  padding-right: 0; }
 
-/*# sourceMappingURL=style7.css.map */
+section.payment {
+  background: #fff; }
+
+.payment_block {
+  background: #f3f3f3;
+  padding: 55px 20px 40px 20px; }
+
+.payment__head {
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 55px; }
+
+.payment__personal-info {
+  margin: 0 auto; }
+
+.personal__info-item {
+  display: table-row; }
+
+input[type="text"].payment__input {
+  width: 100%;
+  max-width: 440px; }
