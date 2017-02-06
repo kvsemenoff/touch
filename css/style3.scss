@@ -1,5 +1,40 @@
 
 
+.dc_footer_view {
+	background: #ffffff;
+
+	.dc_footer_hr {
+		color: #e5e5e5;
+		background-color: #e5e5e5;
+		width: 90%;
+	}
+
+	a {
+		color: #1f191a;
+	    font-family: "Lato-Light";
+		font-size: 30px;
+		font-weight: 300;
+		line-height: 43px;
+	}
+
+    .dc-socitem {
+        display: inline-block;
+	    height: 51px;
+	    width: 51px;
+	    margin-top: 18px;        
+    }
+
+	.dc-instagram {
+	    background: url("../images/dc-instagram-mobile.png") no-repeat top center;
+	}
+
+	.dc-facebook {
+	    background: url("../images/dc-facebook-mobile.png") no-repeat top center;
+	}
+
+	text-align: center;
+}
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -11,6 +46,58 @@
 }
 
 @media only screen and (min-width : 992px) {
+
+.dc_footer_view {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	width: 100%;
+
+	.container {
+		margin-left: 63px;
+		margin-right: 0px;
+	}
+
+	.dc_footer_hr {
+        width: 0px;
+	}
+
+	background: #1f191a;
+	a {
+	    color: #ffffff;
+	    font-family: "Lato-Light";
+		font-size: 30px;
+		font-weight: 300;
+		line-height: 43px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+    .dc-socitem {
+        display: inline-block;
+	    height: 51px;
+	    width: 51px;	    
+	    padding-bottom: 90px;
+    }
+
+	.dc-instagram {
+	    background: url("../images/dc-instagram.png") no-repeat top center;
+	    margin-right: 68px;	    
+	}
+
+	.dc-facebook {
+	    background: url("../images/dc-facebook.png") no-repeat top center;
+	    margin-left: 68px;
+	}
+
+	.dc-long-padding {
+	    margin-right: 68px;	
+	}
+
+	.dc-text {
+		margin-top: 15px;
+	}
+}	
+
 }
 
 @media only screen and (min-width : 1248px) {
