@@ -36,6 +36,37 @@
 }
 
 
+.dc_about_view {
+    text-align: center;
+    
+    .dc-about-text {
+        text-align: justify;	
+    }
+
+    .dc-about-text2 {
+	    color: #1f191a;
+		font-family: "Lato-Light";
+		font-size: 24px;
+		font-weight: 300;
+		line-height: 37px;
+	}
+
+    .dc-about-title {
+		color: #1f191a;
+		font-family: "Lato-Bold";
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 30px;
+	}
+
+	.dc-about-hr {
+		color: #f57365;
+		background-color: #f57365;
+		width: 90px;
+	}
+
+}
+
 @media only screen and (min-width : 320px) {
 }
 
