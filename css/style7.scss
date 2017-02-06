@@ -1,7 +1,7 @@
 .header{
   width: 100%;
-  padding-top: 35px;
-  padding-bottom: 25px;
+  padding-top: 13px;
+  padding-bottom: 7px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -121,6 +121,10 @@
 
 @media only screen and (min-width : 480px) {
 
+  .header{
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
   .header__logo{
     width: 60px;
     height: 60px;
