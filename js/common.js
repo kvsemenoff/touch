@@ -34,6 +34,33 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
+    // Changing language (showing options)
+
+    (function () {
+        var showList = false;
+        $(".header__language_btn").click(function (e) {
+            e.preventDefault();
+
+            var list = $(".header__language_list");
+
+            var language = window.location.pathname;
+
+            if (language == "en"){
+                $(this).css({"background-image":"../img/eng.png"})
+            } else {
+                $(this).css({"background-image":"../img/russia.png"})
+            }
+
+            if (!showList){
+                list.css({"display":"flex"});
+                showList = true;
+            } else {
+                list.css({"display":"none"});
+                showList = false;
+            }
+        })
+    })();
+
  });
 
 

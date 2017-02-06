@@ -16,8 +16,10 @@
 .center{
 	text-align: center;
 }
-
-
+.container{
+  width: 100%;
+  max-width: 1500px;
+}
 
 @media only screen and (min-width : 320px) {
 }
