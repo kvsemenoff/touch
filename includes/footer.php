@@ -11,11 +11,19 @@
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
                 <a href="#">Условия использования</a>
             </div>
-            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-                <a class="dc-instagram" href="#"><img src="images/dc-instagram-mobile.png"></a>
-                <a class="dc-facebook" href="#"><img src="images/dc-facebook-mobile.png"></a>
+            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">                
+                <a class="dc-socitem dc-instagram" href="#">
+                </a>                                
+                <a class="dc-socitem dc-facebook" href="#">
+                </a>                                
             </div>    
         </div>
     </div>
-</section>	
+</section>
+
+<script type="text/javascript">
+    $( document ).ready(function() {
+        
+    });
+</script>
 	

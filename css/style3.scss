@@ -13,6 +13,20 @@
 		color: #1f191a;
 	}
 
+    .dc-socitem {
+        display: inline-block;
+	    height: 51px;
+	    width: 51px;        
+    }
+
+	.dc-instagram {
+	    background: url("../images/dc-instagram-mobile.png") no-repeat top center;
+	}
+
+	.dc-facebook {
+	    background: url("../images/dc-facebook-mobile.png") no-repeat top center;
+	}
+
 	text-align: center;
 }
 
@@ -29,10 +43,29 @@
 @media only screen and (min-width : 992px) {
 
 .dc_footer_view {
+	.dc_footer_hr {
+        width: 0px;
+	}
+
 	background: #1f191a;
 	a {
 	    color: #ffffff;
 	}
+
+    .dc-socitem {
+        display: inline-block;
+	    height: 51px;
+	    width: 51px;        
+    }
+
+	.dc-instagram {
+	    background: url("../images/dc-instagram.png") no-repeat top center;
+	}
+
+	.dc-facebook {
+	    background: url("../images/dc-facebook.png") no-repeat top center;
+	}
+
 }	
 
 }
