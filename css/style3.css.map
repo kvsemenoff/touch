@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAEA,eAAgB,CACf,UAAU,CAAE,OAAO,CACnB,KAAK,CAAE,OAAO,CAEd,6BAAc,CACb,KAAK,CAAE,OAAO,CACd,gBAAgB,CAAE,OAAO,CAc3B,yCAA2C,CAE3C,eAAgB,CACf,UAAU,CAAE,OAAO,CACnB,KAAK,CAAE,OAAO",
+"sources": ["style3.scss"],
 "names": [],
 "file": "style3.css"
 }
