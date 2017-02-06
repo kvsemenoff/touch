@@ -1,7 +1,7 @@
 
 
 .dc_footer_view {
-	background: #ffffff;	
+	background: #ffffff;
 
 	.dc_footer_hr {
 		color: #e5e5e5;
@@ -11,7 +11,7 @@
 
 	a {
 		color: #1f191a;
-		font-family: "LatoLight";
+		font-family: "Lato-Light";
 	}
 
     .dc-socitem {
@@ -47,6 +47,11 @@
 	padding-top: 26px;
 	padding-bottom: 26px;
 
+	.container {
+		margin-left: 63px;
+		margin-right: 0px;
+	}
+
 	.dc_footer_hr {
         width: 0px;
 	}
@@ -54,7 +59,7 @@
 	background: #1f191a;
 	a {
 	    color: #ffffff;
-	    font-family: "LatoLight";
+	    font-family: "Lato-Light";
 		font-size: 30px;
 		font-weight: 300;
 		line-height: 43px;
@@ -68,7 +73,7 @@
 
 	.dc-instagram {
 	    background: url("../images/dc-instagram.png") no-repeat top center;
-	    margin-right: 68px;
+	    margin-right: 68px;	    
 	}
 
 	.dc-facebook {
