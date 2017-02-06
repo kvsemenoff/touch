@@ -1,2 +1,63 @@
-@import url(reset.css);@import url(fonts.css);@import url(style2.css);@import url(style3.css);@import url(style4.css);@import url(style5.css);@import url(style6.css);@import url(style7.css);@import url(style8.css);@import url(style9.css);@import url(style10.css);.clear{clear:both}.center{text-align:center}
-/*# sourceMappingURL=style.css.map */
+@import url(reset.css);
+@import url(fonts.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(style5.css);
+@import url(style6.css);
+@import url(style7.css);
+@import url(style8.css);
+@import url(style9.css);
+@import url(style10.css);
+.clear {
+  clear: both; }
+
+.center {
+  text-align: center; }
+
+h1 {
+  color: #2e2834;
+  font-family: "Lato-Regular";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 42px; }
+
+h2 {
+  color: #2e2834;
+  font-family: "LatoRegular";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px; }
+
+input[type="text"] {
+  width: 267px;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #333;
+  font-family: "Lato-Bold";
+  outline: 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 21px;
+  border: 1px solid #1f191a; }
+
+input[type="submit"] {
+  width: 257px;
+  height: 54px;
+  background-color: #f63;
+  border-radius: 3px;
+  color: white;
+  font-family: "Lato-Bold";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21px;
+  outline: 0;
+  border: 0; }
+
+select {
+  outline: 0;
+  background-color: #fff;
+  border: 1px solid #1f191a;
+  border-radius: 2px;
+  width: 231px;
+  height: 51px; }

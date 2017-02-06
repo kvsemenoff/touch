@@ -1,2 +1,42 @@
-.dc_footer_view{background:#ffffff;text-align:center}.dc_footer_view .dc_footer_hr{color:#e5e5e5;background-color:#e5e5e5;width:90%}.dc_footer_view a{color:#1f191a;font-family:"LatoLight"}.dc_footer_view .dc-socitem{display:inline-block;height:51px;width:51px}.dc_footer_view .dc-instagram{background:url("../images/dc-instagram-mobile.png") no-repeat top center}.dc_footer_view .dc-facebook{background:url("../images/dc-facebook-mobile.png") no-repeat top center}@media only screen and (min-width: 992px){.dc_footer_view{padding-top:26px;padding-bottom:26px;background:#1f191a}.dc_footer_view .dc_footer_hr{width:0px}.dc_footer_view a{color:#ffffff;font-family:"LatoLight";font-size:30px;font-weight:300;line-height:43px}.dc_footer_view .dc-socitem{display:inline-block;height:51px;width:51px}.dc_footer_view .dc-instagram{background:url("../images/dc-instagram.png") no-repeat top center;margin-right:68px}.dc_footer_view .dc-facebook{background:url("../images/dc-facebook.png") no-repeat top center;margin-left:68px}}
-/*# sourceMappingURL=style3.css.map */
+.dc_footer_view {
+  background: #ffffff;
+  text-align: center; }
+  .dc_footer_view .dc_footer_hr {
+    color: #e5e5e5;
+    background-color: #e5e5e5;
+    width: 90%; }
+  .dc_footer_view a {
+    color: #1f191a;
+    font-family: "LatoLight"; }
+  .dc_footer_view .dc-socitem {
+    display: inline-block;
+    height: 51px;
+    width: 51px; }
+  .dc_footer_view .dc-instagram {
+    background: url("../images/dc-instagram-mobile.png") no-repeat top center; }
+  .dc_footer_view .dc-facebook {
+    background: url("../images/dc-facebook-mobile.png") no-repeat top center; }
+
+@media only screen and (min-width: 992px) {
+  .dc_footer_view {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background: #1f191a; }
+    .dc_footer_view .dc_footer_hr {
+      width: 0px; }
+    .dc_footer_view a {
+      color: #ffffff;
+      font-family: "LatoLight";
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 43px; }
+    .dc_footer_view .dc-socitem {
+      display: inline-block;
+      height: 51px;
+      width: 51px; }
+    .dc_footer_view .dc-instagram {
+      background: url("../images/dc-instagram.png") no-repeat top center;
+      margin-right: 68px; }
+    .dc_footer_view .dc-facebook {
+      background: url("../images/dc-facebook.png") no-repeat top center;
+      margin-left: 68px; } }
