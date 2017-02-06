@@ -12,8 +12,8 @@
                 <a href="#">Условия использования</a>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-                <a href="#"><img src=""></a>
-                <a href="#"><img src=""></a>
+                <a class="dc-instagram" href="#"><img src="images/dc-instagram-mobile.png"></a>
+                <a class="dc-facebook" href="#"><img src="images/dc-facebook-mobile.png"></a>
             </div>    
         </div>
     </div>

@@ -1,13 +1,19 @@
 
 
 .dc_footer_view {
-	background: #ffffff;
-	color: #1f191a;
+	background: #ffffff;	
 
 	.dc_footer_hr {
 		color: #e5e5e5;
 		background-color: #e5e5e5;
+		width: 90%;
 	}
+
+	a {
+		color: #1f191a;
+	}
+
+	text-align: center;
 }
 
 
@@ -24,7 +30,9 @@
 
 .dc_footer_view {
 	background: #1f191a;
-	color: #ffffff;
+	a {
+	    color: #ffffff;
+	}
 }	
 
 }
