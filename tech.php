@@ -7,11 +7,14 @@
 <h2>Пример заголовка h2</h2>
 <br><br>	
 <form action="#">
-	<input type="text" value="" placeholder="Инпут тайп текст">		
+	<input type="text" value="" placeholder="Инпут тайп текст"><br>		
 	<input type="submit" value="Значение" placeholder="Инпут тайп сабмит">
-	<select name="select" id=""></select>		
+	<br>
+	<select name="select" id="">
+		<option value="one">Выберите значение:</option>
+	</select>		
 </form>
-<br>		
+<br>	
 <?php require_once('includes/footer.php'); ?>
 
 	

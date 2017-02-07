@@ -34,6 +34,12 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
+    $(".payment__checkbox").on("click", function(){
+        $(this).closest(".payment__check-block").toggleClass("checked__box").siblings().removeClass("checked__box");
+    })
+
+    $("select option[value=1]").hide();
+
  });
 
 

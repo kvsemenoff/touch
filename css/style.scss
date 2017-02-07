@@ -42,18 +42,28 @@ input[type="text"] {
     line-height: 21px;
     border: 1px solid #1f191a;
 }
-input[type="submit"] {
-    width: 257px;
-    height: 54px;
+.button-1 {
     background-color: #f63;
     border-radius: 3px;
     color: white;
     font-family: "Lato-Bold";
     font-size: 20px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 28px;
+    padding: 13px 40px 13px 45px;
     outline: 0;
     border: 0;
+}
+input[type="submit"] {
+    border-radius: 2px;
+    border: 0;
+    color: white;
+    font-family: "Lato-Regular";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 21px;
+    padding: 15px 90px 15px 20px;
+    background: #f63;
 }
 select {
     outline: 0;
