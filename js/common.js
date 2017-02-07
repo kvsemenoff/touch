@@ -1,7 +1,19 @@
 
 
 $(document).ready(function(){
-
+    $('.header__menu_mobile').click(function(e){
+            e.preventDefault();
+            $('.section_padding-db-header_bottom2').slideToggle();
+    });
+    $(window).resize(function(){
+        var $this = $(this);
+        if($this.width() > 1248){
+             $('.section_padding-db-header_bottom2').css("display" , "block");
+        }
+        else{
+            $('.section_padding-db-header_bottom2').css("display" , "none");
+        }
+    });
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
@@ -33,6 +45,13 @@ $(document).ready(function(){
         $(this).find('.az-options').slideToggle(0);
         $(this).toggleClass('az-select-focus');
     });
+
+
+    $(".payment__checkbox").on("click", function(){
+        $(this).closest(".payment__check-block").toggleClass("checked__box").siblings().removeClass("checked__box");
+    })
+
+    $("select option[value=1]").hide();
 
     // Changing language (showing options)
 
