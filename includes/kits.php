@@ -63,7 +63,7 @@
 	                </div>
 	                <div class="dc-nabory-to-basket">
 	                	<form method="POST" action="#">
-	                		<input type="submit" class="button-3" name="" value="В корзину" >
+	                		<input type="submit" name="" value="В корзину" class="dc-button-4">
 	                	</form>
 	                </div>
 		        </div>
