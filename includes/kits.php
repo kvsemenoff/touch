@@ -40,15 +40,15 @@
 	    </div>
 	</div>
 
-    <div class="dc-for-max-height">
-	    <div class="container">
-		    <div class="row">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-		            <div class="dc-nabory-image-block">
-		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
-		            </div>        
-		        </div>
-		        <div class="col-md-7 col-lg-7 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+    <div class="container">
+	    <div class="row">                  
+	        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+	            <div class="dc-nabory-image-block">
+	                <img class="dc-nabory-image" src="images/dc-kits.jpg">
+	            </div>        
+	        </div>
+	        <div class="col-md-7 col-lg-7 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+	            <div class="dc-mobile-align">
 	                <div class="dc-nabory-title">
 	                	Набор №1
 	                </div>
@@ -63,12 +63,12 @@
 	                </div>
 	                <div class="dc-nabory-to-basket">
 	                	<form method="POST" action="#">
-	                		<input type="submit" name="" value="В корзину" class="dc-button-4">
+	                		<input type="submit" name="" value="В корзину" class="dc-button-4" style="width: 230px; height: 50px; background: #52ac62;color: white; font-family: "Lato Bold"; font-size: 22px; font-weight: 700;line-height: 21px;">
 	                	</form>
 	                </div>
-		        </div>
-		    </div>
-		</div>
+	            </div>
+	        </div>
+	    </div>
 	</div>
 
 
