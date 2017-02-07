@@ -36,6 +36,92 @@
 }
 
 
+.dc_about_view {
+    text-align: center;
+    
+    .dc-about-text {
+        text-align: justify;
+        color: #2e2834;
+		font-family: "Lato-Light";
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 61px;
+		margin-bottom: 80px;	
+    }
+
+    .dc-about-text2 {
+	    color: #1f191a;
+		font-family: "Lato-Light";
+		font-size: 24px;
+		font-weight: 300;
+		line-height: 37px;
+	}
+
+    .dc-about-title {
+		color: #1f191a;
+		font-family: "Lato-Bold";
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 30px;
+	}
+
+	.dc-about-hr {
+		color: #f57365;
+		background-color: #f57365;
+		width: 90px;
+	}
+
+	.dc-how {
+		background: #f2f3f2;
+	}
+}
+
+.dc_nabory_view {
+    text-align: center;
+    
+    .dc-nabory-text {
+        text-align: justify;
+        color: #2e2834;
+		font-family: "Lato-Light";
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 61px;
+		margin-bottom: 80px;	
+    }
+
+    .dc-nabory-choose {
+    	color: #333;
+		font-family: "Lato-Semibold";
+		font-size: 25px;
+		font-weight: 600;
+		line-height: 31px;
+		margin-top: 15px;
+		margin-bottom: 5px;
+    }
+
+    .dc-nabory-select_and_choose {
+    	background: #f3f3f3;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    }
+
+    .dc-nabory-menu {
+    	color: #3b3b3b;
+		font-family: "Lato-Bold";
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 60px;		
+    }
+
+    .dc-nabory-hr {
+        color: #e5e3e3;
+        background: #e5e3e3;
+        width: 0px;	
+    }
+    
+
+}
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -95,8 +181,21 @@
 
 	.dc-text {
 		margin-top: 15px;
-	}
+	}	
 }	
+
+.dc_nabory_view {
+    .dc-nabory-hr {
+        color: #e5e3e3;
+        background: #e5e3e3;
+        width: 200px;
+        margin-top: 25px;	
+    }
+
+    .dc-nabory-menu {
+    	text-transform: uppercase;
+    }
+}
 
 }
 
