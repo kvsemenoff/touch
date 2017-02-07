@@ -21,6 +21,39 @@
   max-width: 1500px;
 }
 
+.button-1 {
+    background: #ff6633;
+	color: white;
+	font-family: "Lato-Bold";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+	width: 300px;
+	height: 75px;
+	margin-top: 62px;
+	border: none;
+}
+
+h2 {
+	font-family: "Lato-Regular";
+	color: #2e2834;
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 42px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.button-2 {
+	background: #f2f3f2;
+    color: #1f191a;
+	font-family: "Lato-Bold";
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 21px;
+}
+
 @media only screen and (min-width : 320px) {
 }
 

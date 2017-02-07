@@ -40,7 +40,13 @@
     text-align: center;
     
     .dc-about-text {
-        text-align: justify;	
+        text-align: justify;
+        color: #2e2834;
+		font-family: "Lato-Light";
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 61px;
+		margin-bottom: 80px;	
     }
 
     .dc-about-text2 {
@@ -63,6 +69,10 @@
 		color: #f57365;
 		background-color: #f57365;
 		width: 90px;
+	}
+
+	.dc-how {
+		background: #f2f3f2;
 	}
 
 }
