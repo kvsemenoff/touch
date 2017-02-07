@@ -88,6 +88,82 @@
 		line-height: 61px;
 		margin-bottom: 80px;	
     }
+
+    .dc-nabory-choose {
+    	color: #333;
+		font-family: "Lato-Semibold";
+		font-size: 25px;
+		font-weight: 600;
+		line-height: 31px;
+		margin-top: 15px;
+		margin-bottom: 5px;
+    }
+
+    .dc-nabory-select_and_choose {
+    	background: #f3f3f3;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    }
+
+    .dc-nabory-menu {
+    	color: #3b3b3b;
+		font-family: "Lato-Bold";
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 60px;		
+    }
+
+    .dc-nabory-hr {
+        color: #e5e3e3;
+        background: #e5e3e3;
+        width: 0px;	
+    }
+
+    .dc-nabory-title {
+    	color: #1a1a1a;
+		font-size: 24px;
+		text-transform: uppercase;		
+		font-family: "Lato-Bold";
+		font-weight: 700;
+		text-align: left;
+    }
+
+    .dc-nabory-text2 {
+	    color: #1a1a1a;
+		font-family: Lato;
+		font-size: 20px;
+		font-weight: 400;
+		text-align: justify;		
+    }
+
+    .dc-nabory-hr-2 {
+    	width: 200px;    	
+    }
+
+    .dc-nabory-block-hr2 {
+		text-align: left;
+    }
+
+    .dc-nabory-show {
+    	text-align: left;
+		margin-top: 10px;
+		margin-bottom: 10px;
+    }
+
+    .dc-nabory-show-list {
+    	color: #52ac62;
+    	text-decoration: none; 
+    	border-bottom: 1px dashed #52ac62;
+    	color: #52ac62;
+		font-family: "Lato-Heavy";
+		font-size: 24px;
+		font-weight: 800;
+    }
+
+    .dc-nabory-to-basket {
+    	text-align: left;
+    }
+
 }
 
 @media only screen and (min-width : 320px) {
@@ -149,8 +225,21 @@
 
 	.dc-text {
 		margin-top: 15px;
-	}
+	}	
 }	
+
+.dc_nabory_view {
+    .dc-nabory-hr {
+        color: #e5e3e3;
+        background: #e5e3e3;
+        width: 200px;
+        margin-top: 25px;	
+    }
+
+    .dc-nabory-menu {
+    	text-transform: uppercase;
+    }
+}
 
 }
 
