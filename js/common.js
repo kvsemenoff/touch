@@ -1,7 +1,19 @@
 
 
 $(document).ready(function(){
-
+    $('.header__menu_mobile').click(function(e){
+            e.preventDefault();
+            $('.section_padding-db-header_bottom2').slideToggle();
+    });
+    $(window).resize(function(){
+        var $this = $(this);
+        if($this.width() > 1248){
+             $('.section_padding-db-header_bottom2').css("display" , "block");
+        }
+        else{
+            $('.section_padding-db-header_bottom2').css("display" , "none");
+        }
+    });
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
