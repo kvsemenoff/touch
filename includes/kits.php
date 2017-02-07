@@ -26,4 +26,18 @@
 	        </div>
 	    </div>
     </div>
+
+    <div class="container">
+	    <div class="row">                  
+	        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+	            <div class="dc-nabory-menu">
+	                Меню наборов
+	            </div>        
+	        </div>
+	        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+                <hr class="dc-nabory-hr">
+	        </div>
+	    </div>
+	</div>
+
 </section>
