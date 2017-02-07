@@ -40,7 +40,13 @@
     text-align: center;
     
     .dc-about-text {
-        text-align: justify;	
+        text-align: justify;
+        color: #2e2834;
+		font-family: "Lato-Light";
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 61px;
+		margin-bottom: 80px;	
     }
 
     .dc-about-text2 {
@@ -65,6 +71,23 @@
 		width: 90px;
 	}
 
+	.dc-how {
+		background: #f2f3f2;
+	}
+}
+
+.dc_nabory_view {
+    text-align: center;
+    
+    .dc-nabory-text {
+        text-align: justify;
+        color: #2e2834;
+		font-family: "Lato-Light";
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 61px;
+		margin-bottom: 80px;	
+    }
 }
 
 @media only screen and (min-width : 320px) {
