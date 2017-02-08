@@ -198,12 +198,12 @@
 	/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
 	.checkbox-custom {
 	    position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
-		width: 44px;
+		width: 38px;
 		height: 35px;
 		background-color: white;
 		border: 1px solid #1f191a;
 		border-radius: 0px;
-	    margin-top: 13px;
+
 	}
 	 
 	/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
@@ -220,12 +220,11 @@
 	    position: absolute;      /* Позиционируем его абсолютным образом */
 	 
 	    /* Задаем расстояние от верхней, правой, нижней и левой границы */
-	    top: 4px;
-	    right: 2px;
-	    bottom: 2px;
-	    left: 2px;
-	    background: white url("../images/dc-checkbox.png") no-repeat;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
-	    border: 1px solid #ff6633;
+	    top: -2px;
+	    right: -5px;
+	    bottom: -2px;
+	    left: -2px;
+	    background: white url("../images/dc-checkbox.png") no-repeat;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */	    
 	}
 
     .dc-wine {
@@ -233,18 +232,17 @@
 		font-family: "Lato-Regular";
 		font-weight: 400;
 		line-height: 18px;
-		font-size: 24px;
+		font-size: 20px;
 		margin-left: 20px;
-		margin-top: -50px
     }
 
     .dc-wine-small {
         color: #333;
 		font-family: "Lato-Regular";
 		font-weight: 400;
-		line-height: 18px;
+		line-height: 10px;
 		font-size: 18px;
-		margin-left: 45px;
+		margin-left: 68px;
 
     }
 
