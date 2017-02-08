@@ -154,6 +154,11 @@ h2 {
 	background-repeat: no-repeat; 
 	background-position: 90% 40%;
 	padding-right: 50px;
+	border: none;
+}
+
+.button-4:hover {
+	background-color: #ff6633;
 }
 
 @media only screen and (min-width : 320px) {
