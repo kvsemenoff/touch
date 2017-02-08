@@ -229,6 +229,46 @@
     }
 }
 
+.dc_owr_nabory_view {
+	text-align: center;
+
+	.dc-our-kits-image {
+		border-radius: 3px;
+		box-shadow: 4px 0 16.4px 1.6px rgba(0, 0, 0, 0.2);
+	}
+
+	.dc-our-title {
+		color: #1f191a;
+		font-family: "Lato-Bold";
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 21px;
+		margin-top: 25px;
+		margin-bottom: 35px;
+	}
+
+	.dc-our-text {
+		color: #1f191a;
+		font-family: "Lato-Light";
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 26px;
+	}
+
+	.button-5 {
+        width: 316px;
+        height: 66px;
+        margin-top: 45px;
+	}
+
+	.button-6 {
+        width: 316px;
+        height: 66px;
+        margin-top: 45px;
+        background: #52ac62;
+	}
+}
+
 @media only screen and (min-width : 320px) {
 }
 
