@@ -198,10 +198,6 @@
 		transform: scale(2.5);
     }
 
-    .dc-checkbox:checked {
-
-    }
-
     .dc-wine {
         color: #333;
 		font-family: "Lato-Regular";
@@ -209,6 +205,7 @@
 		line-height: 18px;
 		font-size: 24px;
 		margin-left: 20px;
+		margin-top: -50px
     }
 
     .dc-wine-small {
@@ -228,6 +225,7 @@
     }
 
     .dc-li {
+    	
     }
 }
 
