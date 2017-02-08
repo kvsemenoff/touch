@@ -9,6 +9,14 @@
 .catalog-p-bottom{
 	padding-bottom: 37px;
 }
+.dd-catalog-title{
+	text-align:center;
+	span{
+		font-size: 37px;
+		color: #261f1f;
+		font-family: "Lato-Regular";
+	}
+}
 // Аккордеон
 .dd-catalog-akkordeon{
 	ul{
@@ -44,14 +52,12 @@
 .dd-number{
 	width: 123px !important;
 	height: 36px;
-
 	margin-top: 0 !important;
 	input[type="text"]{
 		width: 45px !important;
 	}
 }
 .dd-price{
-	// padding-left: 33px;
 	text-align:center;
 	.dd-font-size{
 		font-size: 25px !important;
@@ -68,7 +74,20 @@
 .dd-korz-wrap{
 	text-align:center;
 }
-
+// Поиск
+.dd-catalog-poisk{
+	max-width:306px;
+	input[type="text"]{
+		outline: none;
+		border:1px solid #FF662B;
+		font-size: 21px;
+		padding-left: 18px;
+		color: #000000;
+		font-family: "Lato-Regular";
+		height: 65px;
+		width: 100%;
+	}
+}
 // Кнопка
 .dd-catalog-button{
 	text-align:center;
