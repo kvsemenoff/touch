@@ -104,30 +104,30 @@ $(document).ready(function(){
     });
     let oneprice = parseFloat($(".basket__oneprice-text").text().trim().replace(/\s+/g, '')),
         totalprice = oneprice;
-
+    alert(oneprice);
     $(".basket__totalprice-text").text(oneprice);
-    $(".df-number .dfbutton").on("click", function() {
+    // $(".df-number .dfbutton").on("click", function() {
 
-        var $button = $(this);
-        var oldValue = $button.parent().find("input").val();
+    //     var $button = $(this);
+    //     var oldValue = $button.parent().find("input").val();
   
 
-        if ($button.text() == "+") {
-          var newVal = parseFloat(oldValue) + 1;
-          totalprice += oneprice;
-          $(".basket__totalprice-text").text(totalprice);
-      }  
-      else {
-     // Don't allow decrementing below zero
-     if (oldValue > 1) {
-        var newVal = parseFloat(oldValue) - 1;
-        totalprice -= oneprice;
-        $(".basket__totalprice-text").text(totalprice);
-    } else {
-        newVal = 1;
-        totalprice = oneprice;
-    }
-    }
+    //     if ($button.text() == "+") {
+    //       var newVal = parseFloat(oldValue) + 1;
+    //       totalprice += oneprice;
+    //       $(".basket__totalprice-text").text(totalprice);
+    //   }  
+    //   else {
+    //  // Don't allow decrementing below zero
+    //  if (oldValue > 1) {
+    //     var newVal = parseFloat(oldValue) - 1;
+    //     totalprice -= oneprice;
+    //     $(".basket__totalprice-text").text(totalprice);
+    // } else {
+    //     newVal = 1;
+    //     totalprice = oneprice;
+    // }
+    // }
  });
 
 
