@@ -325,7 +325,7 @@ h2.payment__title {
     width: 22px;
     margin-right: 20px;
 }
-input[type="submit"].payment__btn {
+.submit.payment__btn {
     border-radius: 2px;
     max-width: 230px;
     color: white;
@@ -562,7 +562,7 @@ tr:first-child {
     text-align: center;
     margin-bottom: 60px;
 }
-input[type="submit"].basket__submit {
+.submit.basket__submit {
     color: white;
     font-family: "Lato-Regular";
     font-size: 24px;
@@ -602,7 +602,7 @@ input[type="submit"].basket__submit {
         display: inline-block;
         vertical-align: middle;
     }
-    input[type="submit"].promo__submit {
+    .submit.promo__submit {
         width: 255px;
         line-height: 24px;
         display: inline-block;
@@ -839,11 +839,11 @@ input[type="submit"].basket__submit {
         margin-bottom: 20px;
         float: left;
     }
-    input[type="submit"].basket__submit {
+    .submit.basket__submit {
         max-width: 270px;
         margin-left: 10%;
     }
-    .basket__continue-purchase, input[type="submit"].basket__submit {
+    .basket__continue-purchase, .submit.basket__submit {
         display: inline-block;
     }
     .basket__bottom {

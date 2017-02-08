@@ -113,21 +113,21 @@ $(document).ready(function(){
         var oldValue = $button.parent().find(".number__input").val(),
             idx = $button.parent().find(".number__input");
         if ($button.attr("mark") == "+") {
-          var newVal = parseFloat(oldValue) + 1;
-          $(idx).val(newVal);
-          totalprice += parseFloat(oneprice);
+            var newVal = parseFloat(oldValue) + 1;
+            $(idx).val(newVal);
+            totalprice += parseFloat(oneprice);
+            $(totalInput).text(totalprice)
         }
-        else {
-            if (oldValue > 1) {
-                var newVal = parseFloat(oldValue) - 1;
-                $(idx).val(newVal);
-                totalprice -= parseFloat(oneprice);
-            } else {
-                newVal = 1;
-                totalprice = parseFloat(oneprice);
-            }
-        }
-        $(totalInput).text(totalprice);
+        // else {
+        //     if (oldValue > 1) {
+        //         var newVal = parseFloat(oldValue) - 1;
+        //         $(idx).val(newVal);
+        //         totalprice -= parseFloat(oneprice);
+        //     } else {
+        //         newVal = 1;
+        //         totalprice = oneprice;
+        //     }
+        // }
      })
  });
 

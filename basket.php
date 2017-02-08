@@ -82,11 +82,11 @@
 			</div>
 			<div class="promo__block">
 					<input type="text" name="promo__input" class="promo__input" placeholder="Введите промокод">
-					<input type="submit" name="promo__submit" class="promo__submit" value="Активировать">
+					<input type="submit" name="promo__submit" class="submit promo__submit" value="Активировать">
 			</div>
 			<div class="basket__bottom">
 				<a href="#" class="basket__continue-purchase">Продолжить покупки</a>
-				<input type="submit" class="basket__submit" name="basket__submit" id="basket__submit-id" value="Оформить заказ">
+				<input type="submit" class="submit basket__submit" name="basket__submit" id="basket__submit-id" value="Оформить заказ">
 			</div>	
 		</form>	
 </div>
