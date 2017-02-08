@@ -82,7 +82,24 @@
 		                <div class="dc-nabory-block-hr2">
 		                    <hr align="left" class="dc-nabory-hr-2">
 		                </div>
-		                <div class="dc-nabory-text2">
+		                <div class="dc-nabory-list2">
+		                	<ul class="dc-ul">
+		                		<li>
+		                		    <input type="checkbox" class="dc-checkbox">
+		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
+		                		    <div class="dc-wine-small">Вино красное полусухое</div>
+		                		</li>
+		                		<li>
+		                		    <input type="checkbox" class="dc-checkbox">
+		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
+		                		    <div class="dc-wine-small">Вино красное полусухое</div>
+		                		</li>
+		                		<li>
+		                		    <input type="checkbox" class="dc-checkbox">
+		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
+		                		    <div class="dc-wine-small">Вино красное полусухое</div>
+		                		</li>
+		                	</ul>
 		                </div>
 		                <div class="dc-nabory-show">
 		                	<a href="#" class="dc-nabory-show-list">Показать весь список</a>
