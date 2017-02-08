@@ -191,11 +191,15 @@
     }
 
     .dc-checkbox {
-    	width: 40px;
-		height: 35px;
 		background-color: white;
 		border: 1px solid #1f191a;
-		border-radius: 0px;
+		border-radius: 0px;		
+		margin-bottom: 20px;
+		transform: scale(2.5);
+    }
+
+    .dc-checkbox:checked {
+
     }
 
     .dc-wine {
@@ -204,6 +208,7 @@
 		font-weight: 400;
 		line-height: 18px;
 		font-size: 24px;
+		margin-left: 20px;
     }
 
     .dc-wine-small {
@@ -212,15 +217,17 @@
 		font-weight: 400;
 		line-height: 18px;
 		font-size: 18px;
+		margin-left: 45px;
+
     }
 
     .dc-ul {
     	margin:0;
     	padding: 0;
+    	text-align: left;
     }
 
     .dc-li {
-    	padding-left: 0 !important;
     }
 }
 

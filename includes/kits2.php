@@ -84,10 +84,11 @@
 		                </div>
 		                <div class="dc-nabory-list2">
 		                	<ul class="dc-ul">
-		                		<li>
+		                		<li class="dc-li">
 		                		    <input type="checkbox" class="dc-checkbox">
 		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
-		                		    <div class="dc-wine-small">Вино красное полусухое</div>
+		                		    <br>
+		                		    <span class="dc-wine-small">Вино красное полусухое</span>
 		                		</li>
 		                		<li>
 		                		    <input type="checkbox" class="dc-checkbox">
