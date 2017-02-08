@@ -85,18 +85,22 @@
 		                <div class="dc-nabory-list2">
 		                	<ul class="dc-ul">
 		                		<li class="dc-li">
-		                		    <input type="checkbox" class="dc-checkbox">
+		                		    <label>
+				    					<input class="checkbox" type="checkbox" name="checkbox-test" checked>
+				    					<span class="checkbox-custom"></span>
+				    					<span class="label"></span>
+									</label>
 		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
 		                		    <br>
 		                		    <span class="dc-wine-small">Вино красное полусухое</span>
 		                		</li>
 		                		<li>
-		                		    <input type="checkbox" class="dc-checkbox">
+		                		    <input type="checkbox" class="checkbox">
 		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
 		                		    <div class="dc-wine-small">Вино красное полусухое</div>
 		                		</li>
 		                		<li>
-		                		    <input type="checkbox" class="dc-checkbox">
+		                		    <input type="checkbox" class="checkbox">
 		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
 		                		    <div class="dc-wine-small">Вино красное полусухое</div>
 		                		</li>
