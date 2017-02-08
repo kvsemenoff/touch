@@ -46,6 +46,13 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
+
+    $(".payment__checkbox").on("click", function(){
+        $(this).closest(".payment__check-block").toggleClass("checked__box").siblings().removeClass("checked__box");
+    })
+
+    $("select option[value=1]").hide();
+
     // Changing language (showing options)
 
     (function () {
@@ -72,7 +79,29 @@ $(document).ready(function(){
             }
         })
     })();
-
+    $(".phone").mask("+ 7 (999) 999 - 99 - 99?");
+    $(".form11").submit(function() { 
+      var tel = $(this).find('input[name="user__phone"]');
+      var empty = false;
+      if (tel.val() == ""){
+        empty = true;
+      }
+      if (empty == true){
+        tel.addClass("error-input");
+        tel.focus();
+      }else{
+        var form_data = $(this).serialize(); 
+        $.ajax({
+          type: "POST", 
+          url: "/sendmessage.php", 
+          data: form_data,
+          success: function() {
+            cleanTnanks(this);
+          }
+        });
+      }
+      return false;
+    }); 
  });
 
 
