@@ -77,6 +77,7 @@
 // Поиск
 .dd-catalog-poisk{
 	max-width:306px;
+	margin: 50px auto 0px;
 	input[type="text"]{
 		outline: none;
 		border:1px solid #FF662B;
@@ -84,7 +85,7 @@
 		padding-left: 18px;
 		color: #000000;
 		font-family: "Lato-Regular";
-		height: 65px;
+		height: 64px;
 		width: 100%;
 	}
 }
