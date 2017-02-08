@@ -91,7 +91,7 @@
 		            </div>
 		        </div>
 		        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
-	                <div class="dc-nabory-to-basket">
+	                <div class="dc-nabory-to-basket dc-nabory-to-basket-padding">
 	                	<form method="POST" action="#">
 	                		<input type="button" name="" value="В корзину" class="button-4">
 	                	</form>
@@ -126,7 +126,7 @@
 		            </div>
 		        </div>
 		        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
-	                <div class="dc-nabory-to-basket">
+	                <div class="dc-nabory-to-basket dc-nabory-to-basket-padding">
 	                	<form method="POST" action="#">
 	                		<input type="button" name="" value="В корзину" class="button-4">
 	                	</form>
@@ -161,7 +161,7 @@
 		            </div>
 		        </div>
 		        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
-	                <div class="dc-nabory-to-basket">
+	                <div class="dc-nabory-to-basket dc-nabory-to-basket-padding">
 	                	<form method="POST" action="#">
 	                		<input type="button" name="" value="В корзину" class="button-4">
 	                	</form>

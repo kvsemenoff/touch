@@ -169,7 +169,6 @@
 			font-family: "Lato-Heavy";
 			font-size: 24px;
 			font-weight: 800;
-			margin-left: 56px;
 	    }
     }
 
@@ -185,6 +184,10 @@
 
     .for_padding:nth-child(odd) {
         background: #f3f3f3;
+    }
+
+    .dc-nabory-to-basket-padding {
+    	margin-top: 100px;
     }
 }
 
@@ -260,6 +263,14 @@
 
     .dc-nabory-menu {
     	text-transform: uppercase;
+    }
+}
+
+.dc_nabory_view {
+    .dc-nabory-show {
+	    .dc-nabory-show-list2 {
+			margin-left: 56px;
+	    }
     }
 }
 
