@@ -11,17 +11,17 @@
 						<p class="basket__item-description">Вино красное полусухое</p>
 					</td>
 					<td class="basket__item-oneprice modified__item desktop__shown">
-						<span class="basket__oneprice-text">$50</span>
+						<span class="basket__oneprice-text">$<span class="basket__number">50</span></span>
 					</td>
 					<td class="basket__item-count modified__item">
 						<div class="df-number">
-							<span class="dfbutton dfbutton2">+</span>
+							<span class="dfbutton dfbutton2" mark="-"></span>
 							<input type="text" value="140" disabled="disabled" class="number__input">  
-							<span class="dfbutton dfbutton3">-</span>
+							<span class="dfbutton dfbutton3" mark="+"></span>
 						</div>
 					</td>
 					<td class="basket__item-oneprice modified__item mobile__shown">
-						<span class="basket__oneprice-text">50</span>
+						<span class="basket__oneprice-text">$<span class="basket__number">50</span></span>
 					</td>
 					<td class="basket__item-totalprice modified__item">
 						<a href="#" class="close__btn"></a>
@@ -34,13 +34,13 @@
 						<p class="basket__item-description">Вино красное полусухое</p>
 					</td>
 					<td class="basket__item-oneprice modified__item desktop__shown">
-						<span class="basket__oneprice-text">$50</span>
+						<span class="basket__oneprice-text">$<span class="basket__number">50</span></span>
 					</td>
 					<td class="basket__item-count modified__item">
 						<div class="df-number">
-							<span class="dfbutton dfbutton2"></span>
+							<span class="dfbutton dfbutton2" mark="-"></span>
 							<input type="text" value="140" disabled="disabled" class="number__input">  
-							<span class="dfbutton dfbutton3"></span>
+							<span class="dfbutton dfbutton3" mark="+"></span>
 						</div>
 					</td>
 					<td class="basket__item-oneprice modified__item mobile__shown">
@@ -61,9 +61,9 @@
 					</td>
 					<td class="basket__item-count modified__item">
 						<div class="df-number">
-							<span class="dfbutton dfbutton2"></span>
+							<span class="dfbutton dfbutton2" mark="-"></span>
 							<input type="text" value="140" disabled="disabled" class="number__input">  
-							<span class="dfbutton dfbutton3"></span>
+							<span class="dfbutton dfbutton3" mark="+"></span>
 						</div>
 					</td>
 					<td class="basket__item-oneprice modified__item mobile__shown">
