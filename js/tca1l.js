@@ -14,7 +14,7 @@ var A_TCALCONF = {
 	'nextyear'   : 'Следующий год',
 	'prevmonth'  : 'Предыдущий месяц',
 	'nextmonth'  : 'Следующий месяц',
-	'format'     : 'm/d/Y' // 'd-m-Y', Y-m-d', 'l, F jS Y'
+	'format'     : 'd/m/Y' // 'd-m-Y', Y-m-d', 'l, F jS Y'
 };
 
 var A_TCALTOKENS = [
@@ -115,7 +115,7 @@ function f_tcalRelDate (d_date, d_diff, s_units) {
 		if (d_result.getDate() != d_date.getDate())
 			d_result.setDate(0);
 	}
-	return ' onclick="f_tcalUpdate(' + d_result.valueOf() + '' + ')"';
+	return ' onclick="f_tcalUpdate(' + d_result.valueOf() + (d_diff ? ',1' : '') + ')"';
 }
 
 function f_tcalResetTime (d_date) {
