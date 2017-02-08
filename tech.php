@@ -7,7 +7,7 @@
 <h2>Пример заголовка h2</h2>
 <br><br>	
 <form action="#">
-	<input type="text" value="" placeholder="Инпут тайп текст"><br>		
+	<input type="text" value="" placeholder="Инпут тайп текст" class="input__text"><br>		
 	<input type="submit" value="Значение" placeholder="Инпут тайп сабмит">
 	<br>
 	<select name="select" id="">
