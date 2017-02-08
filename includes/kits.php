@@ -63,7 +63,7 @@
 	                </div>
 	                <div class="dc-nabory-to-basket">
 	                	<form method="POST" action="#">
-	                		<input type="submit" name="" value="В корзину" class="dc-button-4" style="width: 230px; height: 50px; background: #52ac62;color: white; font-family: "Lato Bold"; font-size: 22px; font-weight: 700;line-height: 21px;">
+	                		<input type="button" name="" value="В корзину" class="button-4">
 	                	</form>
 	                </div>
 	            </div>

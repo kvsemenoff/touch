@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <form action="#" method="POST">
-                    <input type="submit" class="button-1" name="">
+                    <input type="submit" class="button-3" name="" value="Заказать">
                 </form>
             </div>
         </div>
@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <form action="#" method="POST">
-                        <input type="submit" class="button-2" name="">
+                        <input type="button" class="button-2" name="" value="Заказать">
                     </form>
                 </div>
             </div>

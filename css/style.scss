@@ -88,7 +88,7 @@ select {
 }
 
 
-.button-1 {
+.button-3 {
     background: #ff6633;
 	color: white;
 	font-family: "Lato-Bold";
@@ -100,6 +100,7 @@ select {
 	height: 75px;
 	margin-top: 62px;
 	border: none;
+	padding: 0px 0px 0px 0px !important;
 }
 
 h2 {
@@ -138,6 +139,17 @@ h2 {
 	margin-bottom: 5px;
 	width: 280px;
 	height: 50px;
+}
+
+.button-4 {
+	width: 230px; 
+	height: 50px; 
+	background: #52ac62;
+	color: white; 
+	font-family: "Lato Bold"; 
+	font-size: 22px; 
+	font-weight: 700;
+	line-height: 21px;
 }
 
 @media only screen and (min-width : 320px) {
