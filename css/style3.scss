@@ -161,6 +161,15 @@
 			font-size: 24px;
 			font-weight: 800;
 	    }
+
+	    .dc-nabory-show-list2 {
+	    	color: #ff6633;
+	    	text-decoration: none;
+	    	border-bottom: 1px dashed #ff6633;
+			font-family: "Lato-Heavy";
+			font-size: 24px;
+			font-weight: 800;
+	    }
     }
 
     
@@ -171,6 +180,54 @@
     .for_padding {
     	padding-bottom: 46px;
     	padding-top: 46px
+    }
+
+    .for_padding:nth-child(odd) {
+        background: #f3f3f3;
+    }
+
+    .dc-nabory-to-basket-padding {
+    	margin-top: 100px;
+    }
+
+    .dc-checkbox {
+		background-color: white;
+		border: 1px solid #1f191a;
+		border-radius: 0px;		
+		margin-bottom: 20px;
+		transform: scale(2.5);
+    }
+
+    .dc-checkbox:checked {
+
+    }
+
+    .dc-wine {
+        color: #333;
+		font-family: "Lato-Regular";
+		font-weight: 400;
+		line-height: 18px;
+		font-size: 24px;
+		margin-left: 20px;
+    }
+
+    .dc-wine-small {
+        color: #333;
+		font-family: "Lato-Regular";
+		font-weight: 400;
+		line-height: 18px;
+		font-size: 18px;
+		margin-left: 45px;
+
+    }
+
+    .dc-ul {
+    	margin:0;
+    	padding: 0;
+    	text-align: left;
+    }
+
+    .dc-li {
     }
 }
 
@@ -246,6 +303,12 @@
 
     .dc-nabory-menu {
     	text-transform: uppercase;
+    }
+
+    .dc-nabory-show {
+	    .dc-nabory-show-list2 {
+			margin-left: 56px;
+	    }
     }
 }
 
