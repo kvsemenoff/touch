@@ -1,11 +1,129 @@
 
+/* Каталог
+=====================================*/
+.dd-catalog-container{
+	max-width:1840px;
+	margin: 0 auto;
+	outline:1px solid blue;
+}
+.catalog-p-bottom{
+	padding-bottom: 37px;
+}
+// Аккордеон
+.dd-catalog-akkordeon{
+	ul{
+		li{
+			display: block;
+			padding: 0 50px;
+			.dd-a-border{
+				display: block;
+				color: #261f1f;
+				font-size: 24px;
+				font-family: "Lato-Regular";
+				padding-bottom: 23px;
+				padding-top: 23px;
+				border-bottom: 1px solid black;
+				background: url(../images/arrow.png) no-repeat right center;
+			}
+			.active{
+				background:url(../images/red.png) no-repeat right center;
+			}
+			li{
+				padding:22px 0;
+			}
+		}
+	}
+}
+.dd-txt{
+	height: 73px;
+	span{
+		font-family: "Lato-Semibold";
+		color:#303030;
+	}
+}
+.dd-number{
+	width: 123px !important;
+	height: 36px;
+
+	margin-top: 0 !important;
+	input[type="text"]{
+		width: 45px !important;
+	}
+}
+.dd-price{
+	// padding-left: 33px;
+	text-align:center;
+	.dd-font-size{
+		font-size: 25px !important;
+	}
+}
+.dd-font-size_pt{
+	padding-top: 14px;
+}
+.dd-p-catalog{
+	font-size: 18px;
+	color: #372c2e;
+	font-family: "Lato-Regular";
+}
+.dd-korz-wrap{
+	text-align:center;
+}
+
+// Кнопка
+.dd-catalog-button{
+	text-align:center;
+	padding-top: 35px;
+}
+.dd-sub-menu-button{
+	border: 1px solid #1f191a;
+	border-radius: 2px;
+	display:inline-block;
+	font-size: 20px;
+	color:black;
+	font-family: "Lato-Bold";
+	padding: 20px 42px;
+}
+.dd-sub-menu{
+	display:none;
+}
+
+
 @media only screen and (min-width : 320px) {
+
 }
 
 @media only screen and (min-width : 480px) {
+	.dd-items{
+		// margin-bottom: 25px;
+		.dd-txt, .dd-price, .dd-choose{
+			float: left;
+		}
+		.dd-price{
+			padding-left: 20px;
+			// padding-left: 33px;
+			width: 80px;
+		}
+		.dd-choose{
+			padding-left: 50px;
+		}
+	}
+	.dd-txt{
+		width: 158px;
+		// width: 271px;
+	}
 }
 
 @media only screen and (min-width : 768px) {
+	.dd-items{
+		.dd-price{
+			padding-left: 20px;
+			padding-left: 33px;
+			width: 122px;
+		}
+	}
+	.dd-txt{
+		width: 271px;
+	}
 }
 
 @media only screen and (min-width : 992px) {
