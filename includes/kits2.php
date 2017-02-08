@@ -74,7 +74,7 @@
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	АНГЛИЙСКИЙ НАБОР
@@ -86,11 +86,11 @@
 		                </div>
 		                <div class="dc-nabory-show">
 		                	<a href="#" class="dc-nabory-show-list">Показать весь список</a>
-		                	<a href="#" class="dc-nabory-show-list">Редактировать набор</a>
+		                	<a href="#" class="dc-nabory-show-list2">Редактировать набор</a>
 		                </div>
 		            </div>
 		        </div>
-		        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+		        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
 	                <div class="dc-nabory-to-basket">
 	                	<form method="POST" action="#">
 	                		<input type="button" name="" value="В корзину" class="button-4">
@@ -109,7 +109,7 @@
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	ВЕНСКИЙ НАБОР
@@ -121,11 +121,11 @@
 		                </div>
 		                <div class="dc-nabory-show">
 		                	<a href="#" class="dc-nabory-show-list">Показать весь список</a>
-		                	<a href="#" class="dc-nabory-show-list">Редактировать набор</a>
+		                	<a href="#" class="dc-nabory-show-list2">Редактировать набор</a>
 		                </div>
 		            </div>
 		        </div>
-		        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+		        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
 	                <div class="dc-nabory-to-basket">
 	                	<form method="POST" action="#">
 	                		<input type="button" name="" value="В корзину" class="button-4">
@@ -144,7 +144,7 @@
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	РУССКИЙ НАБОР
@@ -156,11 +156,11 @@
 		                </div>
 		                <div class="dc-nabory-show">
 		                	<a href="#" class="dc-nabory-show-list">Показать весь список</a>
-		                	<a href="#" class="dc-nabory-show-list">Редактировать набор</a>
+		                	<a href="#" class="dc-nabory-show-list2">Редактировать набор</a>
 		                </div>
 		            </div>
 		        </div>
-		        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+		        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
 	                <div class="dc-nabory-to-basket">
 	                	<form method="POST" action="#">
 	                		<input type="button" name="" value="В корзину" class="button-4">
