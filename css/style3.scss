@@ -252,8 +252,12 @@
     	text-align: left;
     }
 
-    .dc-li {
-    	
+    .dc-li:nth-child(even) {
+    	background: #f2f3f2;
+    }
+
+    .dc-li1:nth-child(even) {
+    	background: white;
     }
 }
 

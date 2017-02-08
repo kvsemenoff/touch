@@ -94,7 +94,7 @@
 		                		    <br>
 		                		    <span class="dc-wine-small">Вино красное полусухое</span>
 		                		</li>
-		                		<li>
+		                		<li class="dc-li">
 		                		    <label>
 				    					<input class="checkbox" type="checkbox" name="checkbox-test" checked>
 				    					<span class="checkbox-custom"></span>
@@ -103,7 +103,7 @@
 		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
 		                		    <div class="dc-wine-small">Вино красное полусухое</div>
 		                		</li>
-		                		<li>
+		                		<li class="dc-li">
 		                		    <label>
 				    					<input class="checkbox" type="checkbox" name="checkbox-test">
 				    					<span class="checkbox-custom"></span>
@@ -149,7 +149,7 @@
 		                </div>
 		                <div class="dc-nabory-list2">
 		                	<ul class="dc-ul">
-		                		<li class="dc-li">
+		                		<li class="dc-li1">
 		                		    <label>
 				    					<input class="checkbox" type="checkbox" name="checkbox-test">
 				    					<span class="checkbox-custom"></span>
@@ -159,7 +159,7 @@
 		                		    <br>
 		                		    <span class="dc-wine-small">Вино красное полусухое</span>
 		                		</li>
-		                		<li>
+		                		<li class="dc-li1">
 		                		    <label>
 				    					<input class="checkbox" type="checkbox" name="checkbox-test" checked>
 				    					<span class="checkbox-custom"></span>
@@ -168,7 +168,7 @@
 		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
 		                		    <div class="dc-wine-small">Вино красное полусухое</div>
 		                		</li>
-		                		<li>
+		                		<li class="dc-li1">
 		                		    <label>
 				    					<input class="checkbox" type="checkbox" name="checkbox-test">
 				    					<span class="checkbox-custom"></span>
@@ -224,7 +224,7 @@
 		                		    <br>
 		                		    <span class="dc-wine-small">Вино красное полусухое</span>
 		                		</li>
-		                		<li>
+		                		<li class="dc-li">
 		                		    <label>
 				    					<input class="checkbox" type="checkbox" name="checkbox-test" checked>
 				    					<span class="checkbox-custom"></span>
@@ -233,7 +233,7 @@
 		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
 		                		    <div class="dc-wine-small">Вино красное полусухое</div>
 		                		</li>
-		                		<li>
+		                		<li class="dc-li">
 		                		    <label>
 				    					<input class="checkbox" type="checkbox" name="checkbox-test">
 				    					<span class="checkbox-custom"></span>
