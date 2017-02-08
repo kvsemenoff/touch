@@ -99,7 +99,7 @@
                         <label for="agreement__checkbox" class="agreement__label">
                         </label>
                         <a href="#" class="agreement__link">Согласен с условиями и правилами</a>
-                        <input type="submit" class="promo__activate payment__btn" value="Оплатить">
+                        <input type="submit" class="submit promo__activate payment__btn" value="Оплатить">
                     </div>
             </div>
         <div class="conditions__block">

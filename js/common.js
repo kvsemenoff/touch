@@ -102,32 +102,33 @@ $(document).ready(function(){
       }
       return false;
     });
-    let oneprice = parseFloat($(".basket__oneprice-text").text().trim().replace(/\s+/g, '')),
-        totalprice = oneprice;
-    alert(oneprice);
-    $(".basket__totalprice-text").text(oneprice);
-    // $(".df-number .dfbutton").on("click", function() {
-
-    //     var $button = $(this);
-    //     var oldValue = $button.parent().find("input").val();
-  
-
-    //     if ($button.text() == "+") {
-    //       var newVal = parseFloat(oldValue) + 1;
-    //       totalprice += oneprice;
-    //       $(".basket__totalprice-text").text(totalprice);
-    //   }  
-    //   else {
-    //  // Don't allow decrementing below zero
-    //  if (oldValue > 1) {
-    //     var newVal = parseFloat(oldValue) - 1;
-    //     totalprice -= oneprice;
-    //     $(".basket__totalprice-text").text(totalprice);
-    // } else {
-    //     newVal = 1;
-    //     totalprice = oneprice;
-    // }
-    // }
+    
+    $(".df-number .dfbutton").on("click", function() {
+        let onepriceArray = parseFloat($(this).parent().parent().parent().find(".basket__number").text().trim()),
+            oneprice = onepriceArray.toString().slice(0,2),
+            totalInput = $(this).parent().parent().parent().find(".basket__totalprice-text");
+            $(totalInput).text(oneprice),
+            totalprice = parseFloat(oneprice);
+        var $button = $(this);
+        var oldValue = $button.parent().find(".number__input").val(),
+            idx = $button.parent().find(".number__input");
+        if ($button.attr("mark") == "+") {
+            var newVal = parseFloat(oldValue) + 1;
+            $(idx).val(newVal);
+            totalprice += parseFloat(oneprice);
+            $(totalInput).text(totalprice)
+        }
+        // else {
+        //     if (oldValue > 1) {
+        //         var newVal = parseFloat(oldValue) - 1;
+        //         $(idx).val(newVal);
+        //         totalprice -= parseFloat(oneprice);
+        //     } else {
+        //         newVal = 1;
+        //         totalprice = oneprice;
+        //     }
+        // }
+     })
  });
 
 
