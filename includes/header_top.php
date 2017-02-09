@@ -53,9 +53,9 @@
                             <td>
                                 <div class="for_padding">
                                     <div class="df-number">
-                                        <span class="dfbutton dfbutton2">+</span>
+                                        <span class="dfbutton dfbutton2">-</span>
                                         <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
-                                        <span class="dfbutton dfbutton3">-</span>
+                                        <span class="dfbutton dfbutton3">+</span>
                                     </div>
                                 </div>
                             </td>
@@ -90,9 +90,9 @@
                             <td>
                                 <div class="for_padding">                            
                                     <div class="df-number">
-                                        <span class="dfbutton dfbutton2">+</span>
+                                        <span class="dfbutton dfbutton2">-</span>
                                         <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
-                                        <span class="dfbutton dfbutton3">-</span>
+                                        <span class="dfbutton dfbutton3">+</span>
                                     </div>                                
                                 </div>
                             </td>
@@ -127,9 +127,9 @@
                             <td>
                                 <div class="for_padding">                            
                                     <div class="df-number">
-                                        <span class="dfbutton dfbutton2">+</span>
+                                        <span class="dfbutton dfbutton2">-</span>
                                         <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
-                                        <span class="dfbutton dfbutton3">-</span>
+                                        <span class="dfbutton dfbutton3">+</span>
                                     </div>                                
                                 </div>                                
                             </td>
