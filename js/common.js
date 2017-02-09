@@ -106,7 +106,7 @@ $(document).ready(function(){
     let basketNumber = $(".basket__number"),
         onepriceArray = [],
         totalInput = $(".basket__totalprice-text"),
-        numberInput = $('.number__input'),
+        numberInput = $('.basket__list .number__input'),
         totalprice = 0;
     for(let i=0; i<basketNumber.length;i++) {
         onepriceArray.push($(basketNumber[i]).text());
@@ -119,19 +119,18 @@ $(document).ready(function(){
             $(totalInputOne).text(onepriceArray[inputIdLength]);
         if(totalprice == 0)
             totalprice = parseFloat(onepriceArray[inputIdLength]);
-        console.log(inputId.length-1);
         var $button = $(this);
         var oldValue = $button.parent().find(".number__input").val();
         if ($button.attr("mark") == "+") {
                 var newVal = parseFloat(oldValue) + 1;
-                $(numberInput[inputIdLength]).val(newVal);
+                $(numberInput[inputIdLength-1]).val(newVal);
                 totalprice += parseFloat(onepriceArray[inputIdLength]);
-                $(totalInputOne).text(totalprice + '$');            
+                $(totalInputOne).text(totalprice + '$');
         }
         else {
             if (oldValue > 1) {
                 var newVal = parseFloat(oldValue) - 1;
-                $(numberInput[inputIdLength]).val(newVal);
+                $(numberInput[inputIdLength-1]).val(newVal);
                 totalprice -= parseFloat(onepriceArray[inputIdLength]);
                 $(totalInputOne).text(totalprice +'$');
             }
