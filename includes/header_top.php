@@ -1,7 +1,7 @@
 <div class="container payment__container">
     <header class="header">
         <div class="header__left_wrapper header__inner_wrapper">
-            <a href="#" class="header__logo"></a>
+            <a href="#" class="img-link-header"><img src="img/logo.png" alt="img" class="img-responsive"></a>
             <div class="header__lang">
                 <a href="#" class="header__language_btn">
                     <span class="language_text">ru</span>

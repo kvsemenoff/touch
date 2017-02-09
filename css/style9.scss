@@ -10,6 +10,10 @@
    text-decoration: none;
  }
 }
+.img-link-header{
+width:60px;
+height: 40px;
+}
 .header__inner_wrapper{
  //width: 50%;
  display: flex;
@@ -28,13 +32,6 @@
 .header__left_wrapper, .header__right_wrapper{
  justify-content: space-around;
 }
-.header__logo{
- width: 62px;
- height: 47px;
- background: url("../img/logo.png") center no-repeat;
- background-size: contain;
- //margin-right: 70px;
-}
 .header__language_btn{
  display: block;
  width: 39px;
@@ -42,6 +39,7 @@
  background: url("../img/russia.png") top no-repeat;
  background-size: contain;
  position: relative;
+
 }
 .header__lang{
  position: relative;
@@ -125,12 +123,7 @@
    padding-top: 35px;
    padding-bottom: 25px;
  }
- .header__logo{
-   width: 60px;
-   height: 60px;
-   background-image: url("../img/logo-dark.png");
-   margin-right: 70px;
- }
+
  .header__left_wrapper{
    justify-content: flex-start;
  }
@@ -149,6 +142,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+   .header__language_btn{
+      margin-left: 70px;
+   }
 	 .header__left_wrapper{
    padding-left: 10%;
  }
