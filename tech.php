@@ -8,9 +8,9 @@
 <br><br>	
 <form action="#">
 	<input type="text" value="" placeholder="Инпут тайп текст" class="input__text"><br>		
-	<input type="submit" value="Значение" placeholder="Инпут тайп сабмит">
+	<input type="submit" value="Значение" class="submit" placeholder="Инпут тайп сабмит">
 	<br>
-	<select name="select" id="">
+	<select name="select" id="" class="select__input">
 		<option value="one">Выберите значение:</option>
 	</select>		
 </form>

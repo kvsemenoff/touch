@@ -1,4 +1,5 @@
 <?php require_once('includes/header.php'); ?>
+<?php require_once('includes/header_top.php'); ?>
 <?php require_once('includes/header_bottom2.php'); ?>
 <section class="payment">
     <div class="container payment__container">
@@ -49,7 +50,7 @@
                                     </select>
                                 </td>
                                 <td class="personal__info-item  extra__info">
-                                    <label style="color: transparent; width: 100%; max-width: 580px; font-size: 0; line-height: 0; padding-bottom: 0" class="personal__label data__arrow">
+                                    <label style="color: transparent; width: 100%; font-size: 0; line-height: 0; padding-bottom: 0" class="personal__label data__arrow">
                                     hyhyhyhyhyh hyhyhyhyh
                                         <span class="date__arow modified__arrow"></span>
                                     </label>

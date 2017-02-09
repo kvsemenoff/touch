@@ -109,7 +109,7 @@ label.data__arrow, select.data__arrow {
         width: 1px;
         height: 30px;
         background:#000;
-        left: -100px;
+        left: -80px;
         top: 50%;
         margin-top: -15px;
     }
@@ -136,7 +136,7 @@ input[type="text"].extra__input,textarea.extra__input {
     color: #666;
     font-size: 19px;
     font-weight: 500;
-    font-style: italic;
+    font-family: "Lato-Italic";
     line-height: 27px;
     margin-top: 0;
     padding-right: 20px;
@@ -534,7 +534,6 @@ tr:first-child {
     font-family: "Lato-Regular";
     font-size: 22px;
     font-weight: 400;
-    text-transform: uppercase;
     padding-left: 18px;
     display: inline-block;
     vertical-align: middle;
@@ -629,7 +628,11 @@ tr:first-child {
         width: 50%;
         margin-bottom: 0;
     }
-
+    .date__arow {
+        &:before {
+            left: -100px;
+        }
+    }
 
 
 }
