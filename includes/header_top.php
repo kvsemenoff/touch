@@ -18,13 +18,9 @@
 
             <a href="mailto:example@mail.com" class="header__mail"><div class="header__mailing_icon"></div>
                 example@mail.com</a>
-            <a href="#" class="header__basket"></a>
-            <a href="#" class="header__menu_mobile"></a>
-        </div>
+            <a href="#" class="header__basket">
+            </a>
 
-    </header>
-
-</div>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -169,6 +165,15 @@
                     </form>
                 </div>
 </div>
+            
+            <a href="#" class="header__menu_mobile"></a>
+        </div>
+
+    </header>
+
+</div>
+
+
 
 <script type="text/javascript">
     $(document).ready(function() {
