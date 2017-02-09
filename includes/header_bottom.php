@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container payment__container">
     <div class="banner">
         <nav class="banner__menu">
             <ul class="banner__menu_list">
