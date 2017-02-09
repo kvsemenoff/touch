@@ -66,13 +66,22 @@ h2 {
     padding: 15px 90px 15px 20px;
     background: #f63;
 }
-select {
-    outline: 0;
+.select__input {
+	font-family: "Lato-Italic";
+    font-size: 22px;
+    cursor: pointer;
+    &:after {
+        content: '';
+        display: block;
+        border-right: 2px solid #000;
+        right: 50px;
+    }
+    height: 60px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 21px;
     background-color: #fff;
-    border: 1px solid #1f191a;
-    border-radius: 2px;
-    width: 231px;
-    height: 51px;
+    padding: 16px 20px 15px 22px;
 }
 
 

@@ -1,11 +1,11 @@
 <?php require_once('includes/header.php'); ?>
-<?php /*require_once('includes/header_top.php');  */?>
-<?php /*require_once('includes/header_bottom2.php') */; ?>
+<?php require_once('includes/header_top.php'); ?>
+<?php require_once('includes/header_bottom2.php'); ?>
 <div class="container payment__container">
 	<h2 class="basket__title">Корзина</h2>
 	<form action="#" name="basket__form">
 		<table class="basket__list">
-				<tr class="basket__item">
+				<tr class="basket__item basket__item1">
 					<td class="basket__item-info">
 						<span class="basket__item-title">Вино Кастелло Дель Соль</span>
 						<p class="basket__item-description">Вино красное полусухое</p>
@@ -16,7 +16,7 @@
 					<td class="basket__item-count modified__item">
 						<div class="df-number">
 							<span class="dfbutton dfbutton2" mark="-"></span>
-							<input type="text" value="140" disabled="disabled" class="number__input">  
+							<input type="text" value="1" disabled="disabled" class="number__input">  
 							<span class="dfbutton dfbutton3" mark="+"></span>
 						</div>
 					</td>
@@ -25,10 +25,10 @@
 					</td>
 					<td class="basket__item-totalprice modified__item">
 						<a href="#" class="close__btn"></a>
-						<p class="basket__totalprice-text">15000$</p>
+						<p class="basket__totalprice-text">50$</p>
 					</td>
 				</tr>
-				<tr class="basket__item">
+				<tr class="basket__item basket__item2">
 					<td class="basket__item-info">
 						<span class="basket__item-title">Вино Кастелло Дель Соль</span>
 						<p class="basket__item-description">Вино красное полусухое</p>
@@ -39,7 +39,7 @@
 					<td class="basket__item-count modified__item">
 						<div class="df-number">
 							<span class="dfbutton dfbutton2" mark="-"></span>
-							<input type="text" value="140" disabled="disabled" class="number__input">  
+							<input type="text" value="1" disabled="disabled" class="number__input">  
 							<span class="dfbutton dfbutton3" mark="+"></span>
 						</div>
 					</td>
@@ -48,10 +48,10 @@
 					</td>
 					<td class="basket__item-totalprice modified__item">
 						<a href="#" class="close__btn"></a>
-						<span class="basket__totalprice-text">15000$</span>
+						<span class="basket__totalprice-text">50$</span>
 					</td>
 				</tr>
-				<tr class="basket__item">
+				<tr class="basket__item basket__item3">
 					<td class="basket__item-info">
 						<span class="basket__item-title">Вино Кастелло Дель Соль</span>
 						<p class="basket__item-description">Вино красное полусухое</p>
@@ -62,7 +62,7 @@
 					<td class="basket__item-count modified__item">
 						<div class="df-number">
 							<span class="dfbutton dfbutton2" mark="-"></span>
-							<input type="text" value="140" disabled="disabled" class="number__input">  
+							<input type="text" value="1" disabled="disabled" class="number__input">  
 							<span class="dfbutton dfbutton3" mark="+"></span>
 						</div>
 					</td>
@@ -71,7 +71,7 @@
 					</td>
 					<td class="basket__item-totalprice modified__item">
 						<a href="#" class="close__btn"></a>
-						<span class="basket__totalprice-text">15000$</span>
+						<span class="basket__totalprice-text">50$</span>
 					</td>
 				</tr>
 			</table>
