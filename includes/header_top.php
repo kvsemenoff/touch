@@ -18,12 +18,9 @@
 
             <a href="mailto:example@mail.com" class="header__mail"><div class="header__mailing_icon"></div>
                 example@mail.com</a>
-            <a href="#" class="header__basket"></a>
-            <a href="#" class="header__menu_mobile"></a>
-        </div>
+            <a href="#" class="header__basket">
+            </a>
 
-    </header>
-</div>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -36,10 +33,7 @@
 
 
 <div class="header__popup">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-lg-6 col-md-offset-5 col-lg-offset-5 col-sm-12 col-xs-12">
-                <table class="table table-responsive">
+                <table class="table table-responsive header__table">
                     <tbody>
                         <tr>
                             <td>
@@ -57,27 +51,106 @@
                                 </div>
                             </td>
                             <td>
-                                <div class="df-number">
-                                    <span class="dfbutton dfbutton2">+</span>
-                                    <input type="text" value="140" disabled="disabled" class="number__input">  
-                                    <span class="dfbutton dfbutton3">-</span>
+                                <div class="for_padding">
+                                    <div class="df-number">
+                                        <span class="dfbutton dfbutton2">+</span>
+                                        <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                        <span class="dfbutton dfbutton3">-</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="header__price0 header_price_padding">
+                                    15000$
+                                </div>
+                            </td>                            
+                            <td>
+                                <div class="">
+                                    <img src="images/dc-exit.png">
+                                </div>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="header__wine">
+                                    Вино Кастелло Дель Соль
+                                </div>
+                                <br>
+                                <div class="header__wine_small">
+                                    Вино красное полусухое
+                                </div>
+                            </td>
+                            <td>
+                                <div class="header__dollar">
+                                    $50    
+                                </div>
+                            </td>
+                            <td>
+                                <div class="for_padding">                            
+                                    <div class="df-number">
+                                        <span class="dfbutton dfbutton2">+</span>
+                                        <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                        <span class="dfbutton dfbutton3">-</span>
+                                    </div>                                
+                                </div>
+                            </td>
+                            <td>
+                                <div class="header__price0 header_price_padding">
+                                    15000$
+                                </div>
+                            </td>                            
+                            <td>
+                                <div class="">
+                                    <img src="images/dc-exit.png">
+                                </div>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="header__wine">
+                                    Вино Кастелло Дель Соль
+                                </div>
+                                <br>
+                                <div class="header__wine_small">
+                                    Вино красное полусухое
+                                </div>
+                            </td>
+                            <td>
+                                <div class="header__dollar">
+                                    $50    
+                                </div>
+                            </td>
+                            <td>
+                                <div class="for_padding">                            
+                                    <div class="df-number">
+                                        <span class="dfbutton dfbutton2">+</span>
+                                        <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                        <span class="dfbutton dfbutton3">-</span>
+                                    </div>                                
                                 </div>                                
                             </td>
                             <td>
-                                <div class="header__price">
+                                <div class="header__price0 header_price_padding">
                                     15000$
+                                </div>
+                            </td>                            
+                            <td>
+                                <div class="">
+                                    <img src="images/dc-exit.png">
                                 </div>
                             </td>                            
                         </tr>
                     </tbody>
-                    <tfoot>
+                    <tfoot class="header__footer">
                         <tr>
                             <td>
                                 <div class="header__all">
                                     ВСЕГО
                                 </div>
                             </td>
-                            <td rowspan="2">
+                            <td>
+                            </td>
+                            <td>
                                 <div class="header__count">
                                     350шт
                                 </div>
@@ -87,39 +160,41 @@
                                     15000$
                                 </div>
                             </td>                            
+                            <td>
+                            </td>
                         </tr>                      
                     </tfoot>
                 </table>          
-            </div>
             
-            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                <input type="text" name="" value="Введите промокод">
-            </div>
+                <div class="header__link_and_input">
+                    <input class="header__promocode" type="text" name="" placeholder="Введите промокод">
 
-            <div class="col-md-4 col-lg-4 col-md-offset-8 col-lg-offset-8 col-sm-12 col-xs-12">
-                <a href="">Продолжить покупки</a>
-            </div>
-             
-            <div class="col-md-4 col-lg-4 col-sm-12"> 
-                <form>
-                    <input type="button" name="" value="Активировать" class="button-6">
-                </form>
-            </div>    
+                    <a class="header__link" href="">Продолжить&nbspпокупки</a>
+                </div>
 
-            <div class="col-md-4 col-lg-4 col-sm-12"> 
-                <form>
-                    <input type="button" name="" value="Перейти в корзину" class="button-7">
-                </form>
-            </div>    
-            
-            <div class="col-md-4 col-lg-4 col-sm-12"> 
-                <form>
-                    <input type="button" name=""  value="Оформить заказ" class="button-6">
-                </form>
-            </div>
-        </div>
-    </div>
+                <div class="header__buttons">
+                    <form>
+                        <input type="button" name="" value="Активировать" class="button-7 button-9">
+                    </form>
+
+                    <form>
+                        <input type="button" name="" value="Перейти в корзину" class="button-8 button-9">
+                    </form>
+                
+                    <form>
+                        <input type="button" name="" value="Оформить заказ" class="button-7 button-9">
+                    </form>
+                </div>
 </div>
+
+            <a href="#" class="header__menu_mobile"></a>
+        </div>
+
+    </header>
+
+</div>
+
+
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -128,6 +203,7 @@
                 $(".header__popup").hide();
             } else {     
                 $(".header__popup").show();
+                $(".header__popup").css("display", "block");
             }
         });
     });

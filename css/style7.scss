@@ -12,8 +12,8 @@ select {
     text-overflow: '';
 }
 .payment__container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 section.payment {
     background: #fff;
@@ -681,7 +681,7 @@ tr:first-child {
       width: 15px;
       height: 9px;
       left: 88%;
-      top: 78px;
+      top: 83px;
       margin-top: 0px;
       &:before {
         content: '';
@@ -702,7 +702,7 @@ tr:first-child {
     }
     .modified__arrow {
         right: 25px;
-        top: 20px;
+        top: 24px;
     }
     .extra__info {
         width: 35%;

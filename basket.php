@@ -21,7 +21,7 @@
 						</div>
 					</td>
 					<td class="basket__item-oneprice modified__item mobile__shown">
-						<span class="basket__oneprice-text">$<span class="basket__number">50</span></span>
+						<span class="basket__oneprice-text">$50</span>
 					</td>
 					<td class="basket__item-totalprice modified__item">
 						<a href="#" class="close__btn"></a>
@@ -51,13 +51,13 @@
 						<span class="basket__totalprice-text">50$</span>
 					</td>
 				</tr>
-				<tr class="basket__item basket__item2">
+				<tr class="basket__item basket__item3">
 					<td class="basket__item-info">
 						<span class="basket__item-title">Вино Кастелло Дель Соль</span>
 						<p class="basket__item-description">Вино красное полусухое</p>
 					</td>
 					<td class="basket__item-oneprice modified__item desktop__shown">
-						<span class="basket__oneprice-text">$50</span>
+						<span class="basket__oneprice-text">$<span class="basket__number">50</span></span>
 					</td>
 					<td class="basket__item-count modified__item">
 						<div class="df-number">
