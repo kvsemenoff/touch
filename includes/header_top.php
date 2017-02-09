@@ -60,8 +60,13 @@
                                 </div>
                             </td>
                             <td>
-                                <div class="header__price header_price_padding">
+                                <div class="header__price0 header_price_padding">
                                     15000$
+                                </div>
+                            </td>                            
+                            <td>
+                                <div class="">
+                                    <img src="images/dc-exit.png">
                                 </div>
                             </td>                            
                         </tr>
@@ -90,8 +95,13 @@
                                 </div>
                             </td>
                             <td>
-                                <div class="header__price header_price_padding">
+                                <div class="header__price0 header_price_padding">
                                     15000$
+                                </div>
+                            </td>                            
+                            <td>
+                                <div class="">
+                                    <img src="images/dc-exit.png">
                                 </div>
                             </td>                            
                         </tr>
@@ -120,8 +130,13 @@
                                 </div>                                
                             </td>
                             <td>
-                                <div class="header__price header_price_padding">
+                                <div class="header__price0 header_price_padding">
                                     15000$
+                                </div>
+                            </td>                            
+                            <td>
+                                <div class="">
+                                    <img src="images/dc-exit.png">
                                 </div>
                             </td>                            
                         </tr>
@@ -133,7 +148,9 @@
                                     ВСЕГО
                                 </div>
                             </td>
-                            <td colspan="2">
+                            <td>
+                            </td>
+                            <td>
                                 <div class="header__count">
                                     350шт
                                 </div>
@@ -143,13 +160,17 @@
                                     15000$
                                 </div>
                             </td>                            
+                            <td>
+                            </td>
                         </tr>                      
                     </tfoot>
                 </table>          
             
-                <input class="header__promocode" type="text" name="" placeholder="Введите промокод">
+                <div class="header__link_and_input">
+                    <input class="header__promocode" type="text" name="" placeholder="Введите промокод">
 
-                <a class="header__link" href="">Продолжить&nbspпокупки</a>
+                    <a class="header__link" href="">Продолжить&nbspпокупки</a>
+                </div>
 
                 <div class="header__buttons">
                     <form>
@@ -161,11 +182,11 @@
                     </form>
                 
                     <form>
-                        <input type="button" name=""  value="Оформить заказ" class="button-7 button-9">
+                        <input type="button" name="" value="Оформить заказ" class="button-7 button-9">
                     </form>
                 </div>
 </div>
-            
+
             <a href="#" class="header__menu_mobile"></a>
         </div>
 

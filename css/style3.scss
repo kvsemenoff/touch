@@ -368,7 +368,7 @@
 		font-family: "Lato-Medium";
 		font-size: 18px;
 		font-weight: 500;
-		margin-top: 40px;
+		margin-top: 50px;
     }
 
     .header__widget {
@@ -380,7 +380,7 @@
     }
 
     .for_padding {
-        margin-top: 36px;		
+        margin-top: 40px;		
     }
 
     .header__footer {
@@ -409,33 +409,53 @@
 		font-family: "Lato-Medium";
 		font-size: 22px;
 		font-weight: 500;
-		text-transform: uppercase;		
+		text-transform: uppercase;
+		margin-left: 50px;		
+	}
+
+	.header__price0 {
+        color: white;
+		font-family: "Lato-Regular";
+		font-size: 22px;
+		font-weight: 400;
+		text-transform: uppercase;
+		background: #52ac62;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 50px;
+		padding-right: 50px;
+		width: 176px;
+		margin-bottom: 10px;
 	}
 
 	.header_price_padding {
         margin-top: 35px;		
 	}
 
-	.header__promocode {
-		width: 259px;
-		height: 56px;
-		color: #666;
-		font-family: "Lato-Medium";
-		font-size: 20px;
-		font-weight: 500;
-		font-style: italic;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 30px;		
-	}
+    .header__link_and_input {
+    	padding-left: 25px;
 
-	.header__link {
-		color: #303030;
-		font-family: "Lato-Regular";
-		font-size: 24px;
-		font-weight: 400;
-		line-height: 18px;
-		text-decoration: underline;
+		.header__promocode {
+			width: 259px;
+			height: 56px;
+			color: #666;
+			font-family: "Lato-Medium";
+			font-size: 20px;
+			font-weight: 500;
+			font-style: italic;
+	        margin-top: 10px;
+	        margin-bottom: 10px;
+	        margin-left: 30px;		
+		}
+
+		.header__link {
+			color: #303030;
+			font-family: "Lato-Regular";
+			font-size: 24px;
+			font-weight: 400;
+			line-height: 18px;
+			text-decoration: underline;
+		}
 	}
 }
 
@@ -517,7 +537,7 @@
 
 .header__popup {
     .header__link {
-        margin-left: 50%;
+        margin-left: 45%;
     }
 }
 
