@@ -66,7 +66,9 @@
                             </td>                            
                             <td>
                                 <div class="">
-                                    <img src="images/dc-exit.png">
+                                    <a href="#">
+                                        <img src="images/dc-exit.png">
+                                    </a>
                                 </div>
                             </td>                            
                         </tr>
@@ -101,7 +103,9 @@
                             </td>                            
                             <td>
                                 <div class="">
-                                    <img src="images/dc-exit.png">
+                                    <a href="#">
+                                        <img src="images/dc-exit.png">
+                                    </a>
                                 </div>
                             </td>                            
                         </tr>
@@ -135,11 +139,11 @@
                                 </div>
                             </td>                            
                             <td>
-                                <div class="">
+                                <a href="#">
                                     <img src="images/dc-exit.png">
-                                </div>
+                                </a>
                             </td>                            
-                        </tr>
+                        </tr>                        
                     </tbody>
                     <tfoot class="header__footer">
                         <tr>
