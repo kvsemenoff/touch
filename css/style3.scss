@@ -338,6 +338,8 @@
 			font-weight: 400;
 			line-height: 43px;        
 		}
+
+		margin-left: 130px;
 	}
 
 	.header__wine {
@@ -374,6 +376,10 @@
 		font-size: 17px;
 		font-weight: 700;
 		line-height: 17px;
+    }
+
+    .for_padding {
+        margin-top: 36px;		
     }
 
     .header__footer {
@@ -417,7 +423,9 @@
 		font-size: 20px;
 		font-weight: 500;
 		font-style: italic;
-        margin: 10px;		
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 30px;		
 	}
 
 	.header__link {

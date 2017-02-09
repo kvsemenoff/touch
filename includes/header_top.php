@@ -55,11 +55,13 @@
                                 </div>
                             </td>
                             <td>
-                                <div class="df-number">
-                                    <span class="dfbutton dfbutton2">+</span>
-                                    <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
-                                    <span class="dfbutton dfbutton3">-</span>
-                                </div>                                
+                                <div class="for_padding">
+                                    <div class="df-number">
+                                        <span class="dfbutton dfbutton2">+</span>
+                                        <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                        <span class="dfbutton dfbutton3">-</span>
+                                    </div>
+                                </div>
                             </td>
                             <td>
                                 <div class="header__price header_price_padding">
@@ -83,11 +85,13 @@
                                 </div>
                             </td>
                             <td>
-                                <div class="df-number">
-                                    <span class="dfbutton dfbutton2">+</span>
-                                    <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
-                                    <span class="dfbutton dfbutton3">-</span>
-                                </div>                                
+                                <div class="for_padding">                            
+                                    <div class="df-number">
+                                        <span class="dfbutton dfbutton2">+</span>
+                                        <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                        <span class="dfbutton dfbutton3">-</span>
+                                    </div>                                
+                                </div>
                             </td>
                             <td>
                                 <div class="header__price header_price_padding">
@@ -111,10 +115,12 @@
                                 </div>
                             </td>
                             <td>
-                                <div class="df-number">
-                                    <span class="dfbutton dfbutton2">+</span>
-                                    <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
-                                    <span class="dfbutton dfbutton3">-</span>
+                                <div class="for_padding">                            
+                                    <div class="df-number">
+                                        <span class="dfbutton dfbutton2">+</span>
+                                        <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                        <span class="dfbutton dfbutton3">-</span>
+                                    </div>                                
                                 </div>                                
                             </td>
                             <td>
@@ -147,7 +153,7 @@
             
                 <input class="header__promocode" type="text" name="" value="Введите промокод">
 
-                <a class="header__link" href="">Продолжить покупки</a>
+                <a class="header__link" href="">Продолжить&nbspпокупки</a>
 
                 <div class="header__buttons">
                     <form>
