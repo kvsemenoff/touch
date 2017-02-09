@@ -11,6 +11,7 @@
 }
 .dd-catalog-title{
 	text-align:center;
+	padding-top: 20px;
 	span{
 		font-size: 37px;
 		color: #261f1f;
@@ -78,6 +79,9 @@
 .dd-catalog-poisk{
 	max-width:306px;
 	margin: 50px auto 0px;
+	label{
+		position: relative;
+	}
 	input[type="text"]{
 		outline: none;
 		border:1px solid #FF662B;
@@ -87,6 +91,16 @@
 		font-family: "Lato-Regular";
 		height: 64px;
 		width: 100%;
+	}
+	input[type="submit"]{
+		position:absolute;
+		top:-14px;
+		right:20px;
+		background: url(../images/lup.png) no-repeat;
+		outline: none;
+		border:none;
+		width: 45px;
+		height: 41px;
 	}
 }
 // Кнопка
