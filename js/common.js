@@ -112,10 +112,11 @@ $(document).ready(function(){
         onepriceArray.push($(basketNumber[i]).text());
     }
     $(".df-number .dfbutton").on("click", function() {
-        var totalInputOne = $(this).parent().parent().parent().find(".basket__totalprice-text"),
-            inputParent = $(this).parent().parent().parent(),
+        var inputParent = $(this).parent().parent().parent(),
             inputId = $(inputParent).attr("class"),
-            inputIdLength = inputId[inputId.length-1];
+            inputIdLength = inputId[inputId.length-1],
+            totalInputOne = totalInput[inputIdLength - 1];
+            console.log(totalInputOne);
             $(totalInputOne).text(onepriceArray[inputIdLength]);
         if(totalprice == 0)
             totalprice = parseFloat(onepriceArray[inputIdLength]);
