@@ -1,6 +1,21 @@
 <?php require_once('includes/header.php'); ?>
 <?php require_once('includes/header_bottom2.php'); ?>
 
+
+<div class="dd-catalog-container2">
+	<div class="dd-catalog-pc-tab">
+		<ul>
+			<li><a href="#">напитки</a></li>
+			<li><a href="#">бакалея</a></li>
+			<li><a href="#">мясо</a></li>
+			<li><a href="#">хлебные изделия</a></li>
+			<li><a href="#">холодные напитки</a></li>
+			<li><a href="#">печенье</a></li>
+			<li><a href="#">конфеты</a></li>
+		</ul>
+	</div>
+</div>
+
 <section class="dd-catalog-wrap">
 	<div class="dd-catalog-container">
 		<div class="dd-catalog-title">
@@ -1355,9 +1370,7 @@
 									$(answerId).slideToggle();
 
 								});
-    // $(".js-faq-tittle:first").click();
+							});
+						</script>
+						<?php require_once('includes/footer.php'); ?>
 
-});
-
-</script>
-<?php require_once('includes/footer.php'); ?>
