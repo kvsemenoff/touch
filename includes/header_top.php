@@ -151,7 +151,7 @@
                     </tfoot>
                 </table>          
             
-                <input class="header__promocode" type="text" name="" value="Введите промокод">
+                <input class="header__promocode" type="text" name="" placeholder="Введите промокод">
 
                 <a class="header__link" href="">Продолжить&nbspпокупки</a>
 
