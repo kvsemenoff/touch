@@ -23,4 +23,157 @@
         </div>
 
     </header>
+<<<<<<< HEAD
 </div>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<div class="header__popup">
+                <table class="table table-responsive">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="header__wine">
+                                    Вино Кастелло Дель Соль
+                                </div>
+                                <br>
+                                <div class="header__wine_small">
+                                    Вино красное полусухое
+                                </div>
+                            </td>
+                            <td>
+                                <div class="header__dollar">
+                                    $50    
+                                </div>
+                            </td>
+                            <td>
+                                <div class="df-number">
+                                    <span class="dfbutton dfbutton2">+</span>
+                                    <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                    <span class="dfbutton dfbutton3">-</span>
+                                </div>                                
+                            </td>
+                            <td>
+                                <div class="header__price">
+                                    15000$
+                                </div>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="header__wine">
+                                    Вино Кастелло Дель Соль
+                                </div>
+                                <br>
+                                <div class="header__wine_small">
+                                    Вино красное полусухое
+                                </div>
+                            </td>
+                            <td>
+                                <div class="header__dollar">
+                                    $50    
+                                </div>
+                            </td>
+                            <td>
+                                <div class="df-number">
+                                    <span class="dfbutton dfbutton2">+</span>
+                                    <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                    <span class="dfbutton dfbutton3">-</span>
+                                </div>                                
+                            </td>
+                            <td>
+                                <div class="header__price">
+                                    15000$
+                                </div>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="header__wine">
+                                    Вино Кастелло Дель Соль
+                                </div>
+                                <br>
+                                <div class="header__wine_small">
+                                    Вино красное полусухое
+                                </div>
+                            </td>
+                            <td>
+                                <div class="header__dollar">
+                                    $50    
+                                </div>
+                            </td>
+                            <td>
+                                <div class="df-number">
+                                    <span class="dfbutton dfbutton2">+</span>
+                                    <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                    <span class="dfbutton dfbutton3">-</span>
+                                </div>                                
+                            </td>
+                            <td>
+                                <div class="header__price">
+                                    15000$
+                                </div>
+                            </td>                            
+                        </tr>
+                    </tbody>
+                    <tfoot class="header__footer">
+                        <tr>
+                            <td>
+                                <div class="header__all">
+                                    ВСЕГО
+                                </div>
+                            </td>
+                            <td colspan="2">
+                                <div class="header__count">
+                                    350шт
+                                </div>
+                            </td>
+                           <td>
+                                <div class="header__price">
+                                    15000$
+                                </div>
+                            </td>                            
+                        </tr>                      
+                    </tfoot>
+                </table>          
+            
+                <input class="header__promocode" type="text" name="" value="Введите промокод">
+
+                <a class="header__link" href="">Продолжить покупки</a>
+             
+                <form>
+                    <input type="button" name="" value="Активировать" class="button-7 button-9">
+                </form>
+
+                <form>
+                    <input type="button" name="" value="Перейти в корзину" class="button-8 button-9">
+                </form>
+            
+                <form>
+                    <input type="button" name=""  value="Оформить заказ" class="button-7 button-9">
+                </form>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".header__basket").click(function function_name(argument) {
+            if ($(".header__popup").is(":visible")) {
+                $(".header__popup").hide();
+            } else {     
+                $(".header__popup").show();
+                $(".header__popup").css("display", "block");
+            }
+        });
+    });
+</script>
+=======
+</div>
+>>>>>>> 5bfb4f3fc1fae80d48e1a6a1f7e21687557842ce

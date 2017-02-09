@@ -31,7 +31,7 @@
 	    <div class="row">                  
 	        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
 	            <div class="dc-nabory-menu">
-	                Меню наборов
+	                Меню&nbspнаборов
 	            </div>        
 	        </div>
 	        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
