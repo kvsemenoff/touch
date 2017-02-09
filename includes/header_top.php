@@ -37,7 +37,7 @@
 
 
 <div class="header__popup">
-                <table class="table table-responsive">
+                <table class="table table-responsive header__table">
                     <tbody>
                         <tr>
                             <td>
@@ -62,7 +62,7 @@
                                 </div>                                
                             </td>
                             <td>
-                                <div class="header__price">
+                                <div class="header__price header_price_padding">
                                     15000$
                                 </div>
                             </td>                            
@@ -90,7 +90,7 @@
                                 </div>                                
                             </td>
                             <td>
-                                <div class="header__price">
+                                <div class="header__price header_price_padding">
                                     15000$
                                 </div>
                             </td>                            
@@ -118,7 +118,7 @@
                                 </div>                                
                             </td>
                             <td>
-                                <div class="header__price">
+                                <div class="header__price header_price_padding">
                                     15000$
                                 </div>
                             </td>                            
@@ -148,18 +148,20 @@
                 <input class="header__promocode" type="text" name="" value="Введите промокод">
 
                 <a class="header__link" href="">Продолжить покупки</a>
-             
-                <form>
-                    <input type="button" name="" value="Активировать" class="button-7 button-9">
-                </form>
 
-                <form>
-                    <input type="button" name="" value="Перейти в корзину" class="button-8 button-9">
-                </form>
-            
-                <form>
-                    <input type="button" name=""  value="Оформить заказ" class="button-7 button-9">
-                </form>
+                <div class="header__buttons">
+                    <form>
+                        <input type="button" name="" value="Активировать" class="button-7 button-9">
+                    </form>
+
+                    <form>
+                        <input type="button" name="" value="Перейти в корзину" class="button-8 button-9">
+                    </form>
+                
+                    <form>
+                        <input type="button" name=""  value="Оформить заказ" class="button-7 button-9">
+                    </form>
+                </div>
 </div>
 
 <script type="text/javascript">
