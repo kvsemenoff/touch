@@ -51,7 +51,7 @@
 						<span class="basket__totalprice-text">50$</span>
 					</td>
 				</tr>
-				<tr class="basket__item basket__item2">
+				<tr class="basket__item basket__item3">
 					<td class="basket__item-info">
 						<span class="basket__item-title">Вино Кастелло Дель Соль</span>
 						<p class="basket__item-description">Вино красное полусухое</p>
