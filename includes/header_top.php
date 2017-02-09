@@ -36,9 +36,6 @@
 
 
 <div class="header__popup">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-lg-6 col-md-offset-5 col-lg-offset-5 col-sm-12 col-xs-12">
                 <table class="table table-responsive">
                     <tbody>
                         <tr>
@@ -59,7 +56,63 @@
                             <td>
                                 <div class="df-number">
                                     <span class="dfbutton dfbutton2">+</span>
-                                    <input type="text" value="140" disabled="disabled" class="number__input">  
+                                    <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                    <span class="dfbutton dfbutton3">-</span>
+                                </div>                                
+                            </td>
+                            <td>
+                                <div class="header__price">
+                                    15000$
+                                </div>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="header__wine">
+                                    Вино Кастелло Дель Соль
+                                </div>
+                                <br>
+                                <div class="header__wine_small">
+                                    Вино красное полусухое
+                                </div>
+                            </td>
+                            <td>
+                                <div class="header__dollar">
+                                    $50    
+                                </div>
+                            </td>
+                            <td>
+                                <div class="df-number">
+                                    <span class="dfbutton dfbutton2">+</span>
+                                    <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
+                                    <span class="dfbutton dfbutton3">-</span>
+                                </div>                                
+                            </td>
+                            <td>
+                                <div class="header__price">
+                                    15000$
+                                </div>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="header__wine">
+                                    Вино Кастелло Дель Соль
+                                </div>
+                                <br>
+                                <div class="header__wine_small">
+                                    Вино красное полусухое
+                                </div>
+                            </td>
+                            <td>
+                                <div class="header__dollar">
+                                    $50    
+                                </div>
+                            </td>
+                            <td>
+                                <div class="df-number">
+                                    <span class="dfbutton dfbutton2">+</span>
+                                    <input type="text" value="140" disabled="disabled" class="number__input header__widget">  
                                     <span class="dfbutton dfbutton3">-</span>
                                 </div>                                
                             </td>
@@ -70,14 +123,14 @@
                             </td>                            
                         </tr>
                     </tbody>
-                    <tfoot>
+                    <tfoot class="header__footer">
                         <tr>
                             <td>
                                 <div class="header__all">
                                     ВСЕГО
                                 </div>
                             </td>
-                            <td rowspan="2">
+                            <td colspan="2">
                                 <div class="header__count">
                                     350шт
                                 </div>
@@ -90,35 +143,22 @@
                         </tr>                      
                     </tfoot>
                 </table>          
-            </div>
             
-            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                <input type="text" name="" value="Введите промокод">
-            </div>
+                <input class="header__promocode" type="text" name="" value="Введите промокод">
 
-            <div class="col-md-4 col-lg-4 col-md-offset-8 col-lg-offset-8 col-sm-12 col-xs-12">
-                <a href="">Продолжить покупки</a>
-            </div>
+                <a class="header__link" href="">Продолжить покупки</a>
              
-            <div class="col-md-4 col-lg-4 col-sm-12"> 
                 <form>
-                    <input type="button" name="" value="Активировать" class="button-6">
+                    <input type="button" name="" value="Активировать" class="button-7 button-9">
                 </form>
-            </div>    
 
-            <div class="col-md-4 col-lg-4 col-sm-12"> 
                 <form>
-                    <input type="button" name="" value="Перейти в корзину" class="button-7">
+                    <input type="button" name="" value="Перейти в корзину" class="button-8 button-9">
                 </form>
-            </div>    
             
-            <div class="col-md-4 col-lg-4 col-sm-12"> 
                 <form>
-                    <input type="button" name=""  value="Оформить заказ" class="button-6">
+                    <input type="button" name=""  value="Оформить заказ" class="button-7 button-9">
                 </form>
-            </div>
-        </div>
-    </div>
 </div>
 
 <script type="text/javascript">
@@ -128,6 +168,7 @@
                 $(".header__popup").hide();
             } else {     
                 $(".header__popup").show();
+                $(".header__popup").css("display", "block");
             }
         });
     });

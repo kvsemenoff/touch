@@ -120,7 +120,7 @@
     }
 
     .dc-nabory-image {
-
+        width: 130%;
     }
 
     .dc-nabory-title {
@@ -275,6 +275,7 @@
 	.dc-our-kits-image {
 		border-radius: 3px;
 		box-shadow: 4px 0 16.4px 1.6px rgba(0, 0, 0, 0.2);
+		width: 80%;
 	}
 
 	.dc-our-title {
@@ -285,6 +286,7 @@
 		line-height: 21px;
 		margin-top: 25px;
 		margin-bottom: 35px;
+		height: 30px;
 	}
 
 	.dc-our-text {
@@ -293,23 +295,127 @@
 		font-size: 20px;
 		font-weight: 300;
 		line-height: 26px;
+		margin-bottom: 30px;
 	}
 }
 
 .header__popup {
 	display: none;
+    background: #ffffff;
 
-	.button-5 {
-        width: 316px;
-        height: 66px;
-        margin-top: 45px;
-	}
+	z-index: 100;
+    position: fixed;
+    left:25%;
+    top: 120px;
+
+    height:550px;
+    width:70%;
 
 	.button-6 {
         width: 316px;
         height: 66px;
         margin-top: 45px;
         background: #52ac62;
+	}
+
+	.button-7 {
+        background: #ff6633;
+	}
+
+	.button-8 {
+        background: #52ac62;
+	}
+
+	.button-9 {
+        width: 258px;
+        height: 57px;
+        border: none;
+        float: left;
+        margin: 10px;
+		color: white;
+		font-family: "Lato-Regular";
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 43px;        
+	}
+
+	.header__wine {
+		color: #333;
+		font-family: "Lato-Semibold";
+		font-size: 22px;
+		font-weight: 600;
+		line-height: 30px;
+	}
+
+	.header__wine_small {
+		color: #372c2e;
+		font-family: "Lato-Regular";
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 30px;
+	}
+
+    .header__dollar {
+		color: #555;
+		font-family: "Lato-Medium";
+		font-size: 18px;
+		font-weight: 500;
+    }
+
+    .header__widget {
+    	color: #333;
+		font-family: "Lato-Bold";
+		font-size: 17px;
+		font-weight: 700;
+		line-height: 17px;
+    }
+
+    .header__footer {
+    	background: #f9f9f9;
+    }
+
+    .header__all {
+    	color: #2e2834;
+		font-family: "Lato-Bold";
+		font-size: 19px;
+		font-weight: 700;
+		line-height: 48px;
+		text-transform: uppercase;
+    }
+
+    .header__count {
+		color: #2e2834;
+		font-family: "Lato-Regular";
+		font-size: 22px;
+		font-weight: 400;    	
+    }
+
+    .header__price {
+	    color: #f63;
+		font-family: "Lato-Medium";
+		font-size: 22px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+
+	.header__promocode {
+		width: 259px;
+		height: 56px;
+		color: #666;
+		font-family: "Lato-Medium";
+		font-size: 20px;
+		font-weight: 500;
+		font-style: italic;
+        margin: 10px;		
+	}
+
+	.header__link {
+		color: #303030;
+		font-family: "Lato-Regular";
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 18px;
+		text-decoration: underline;
 	}
 }
 
