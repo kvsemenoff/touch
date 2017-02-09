@@ -123,36 +123,40 @@ $(document).ready(function(){
 
         var totalInputOne = $(this).parent().parent().parent().find(".basket__totalprice-text"),
         inputParent = $(this).parent().parent().parent(),
-        inputId = $(inputParent).attr("class"),
-        inputIdLength = inputId[inputId.length-1];
-        idx = inputId[inputId.length-1];
-        $(totalInputOne).text(onepriceArray[inputIdLength]);
-        if(totalprice == 0)
-            totalprice = parseFloat(onepriceArray[idx-1]);
+        inputId = $(inputParent).attr("class");
+        var inputIdLength;
+        if (inputId) {
+            inputIdLength = inputId[inputId.length-1];
 
-        var inputParent = $(this).parent().parent().parent(),
-            inputId = $(inputParent).attr("class"),
-            inputIdLength = inputId[inputId.length-1],
-            totalInputOne = totalInput[inputIdLength - 1];
-            console.log(totalInputOne);
+            var idx = inputId[inputId.length-1];
             $(totalInputOne).text(onepriceArray[inputIdLength]);
-        if(totalprice == 0)
-            totalprice = parseFloat(onepriceArray[inputIdLength]);
+            if(totalprice == 0)
+                totalprice = parseFloat(onepriceArray[idx-1]);
 
-        var $button = $(this);
-        var oldValue = $button.parent().find(".number__input").val();
-        if ($button.attr("mark") == "+") {
-                var newVal = parseFloat(oldValue) + 1;
-                $(numberInput[inputIdLength-1]).val(newVal);
-                totalprice += parseFloat(onepriceArray[inputIdLength]);
-                $(totalInputOne).text(totalprice + '$');
-        }
-        else {
-            if (oldValue > 1) {
-                var newVal = parseFloat(oldValue) - 1;
-                $(numberInput[inputIdLength-1]).val(newVal);
-                totalprice -= parseFloat(onepriceArray[inputIdLength]);
-                $(totalInputOne).text(totalprice +'$');
+            var inputParent = $(this).parent().parent().parent(),
+                inputId = $(inputParent).attr("class"),
+                inputIdLength = inputId[inputId.length-1],
+                totalInputOne = totalInput[inputIdLength - 1];
+                console.log(totalInputOne);
+                $(totalInputOne).text(onepriceArray[inputIdLength]);
+            if(totalprice == 0)
+                totalprice = parseFloat(onepriceArray[inputIdLength]);
+
+            var $button = $(this);
+            var oldValue = $button.parent().find(".number__input").val();
+            if ($button.attr("mark") == "+") {
+                    var newVal = parseFloat(oldValue) + 1;
+                    $(numberInput[inputIdLength-1]).val(newVal);
+                    totalprice += parseFloat(onepriceArray[inputIdLength]);
+                    $(totalInputOne).text(totalprice + '$');
+            }
+            else {
+                if (oldValue > 1) {
+                    var newVal = parseFloat(oldValue) - 1;
+                    $(numberInput[inputIdLength-1]).val(newVal);
+                    totalprice -= parseFloat(onepriceArray[inputIdLength]);
+                    $(totalInputOne).text(totalprice +'$');
+                }
             }
         }
     });
@@ -172,7 +176,6 @@ $(document).ready(function(){
     $('.tab a:first').click();
 
     $(".df-number .dfbutton").on("click", function() {
-
         var $button = $(this);
         var oldValue = $button.parent().find("input").val();  
 
