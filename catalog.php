@@ -4,17 +4,361 @@
 
 <div class="dd-catalog-container2">
 	<div class="dd-catalog-pc-tab">
-		<ul>
-			<li><a href="#">напитки</a></li>
-			<li><a href="#">бакалея</a></li>
-			<li><a href="#">мясо</a></li>
-			<li><a href="#">хлебные изделия</a></li>
-			<li><a href="#">холодные напитки</a></li>
-			<li><a href="#">печенье</a></li>
-			<li><a href="#">конфеты</a></li>
+		<ul class="tab">
+			<li><a class="active" href="#tab1">напитки</a></li>
+			<li><a href="#tab2">бакалея</a></li>
+			<li><a href="#tab3">мясо</a></li>
+			<li><a href="#tab4">хлебные изделия</a></li>
+			<li><a href="#tab5">холодные напитки</a></li>
+			<li><a href="#tab6">печенье</a></li>
+			<li><a href="#tab7">конфеты</a></li>
 		</ul>
 	</div>
+	<div class="dd-catalog-poisk dd-catalog-poisk_pc">
+		<form action="#">
+			<label>
+				<input type="text" placeholder="Поиск">
+				<input type="submit" value="">
+			</label>
+		</form>
+	</div>
+	<div class="clearfix"></div>
+
+	<!-- Tab_1 /////////////-->
+
+	<div id="tab1" class="t1">
+		<div class="dd-float-wrap-for-1700">
+			<div class="df1">
+				<div class="dd-tab-left">
+					<div class="name-tovar tabs_float dd-tab-left_el_padding">
+						<span>Вино Кастелло Дель Соль</span>
+						<p class="dd-p-catalog">Вино красное полусухое</p>
+					</div>
+
+					<div class="dd-polosa tabs_float"></div>
+
+					<div class="dd-elements tabs_float">
+						<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+							<span class="basket__oneprice-text dd-font-size">$50</span>
+						</div>
+						<div class="df-number tabs_float">
+							<span class="dfbutton dfbutton2 pt-buttons">-</span>
+							<input type="text" value="34" disabled="disabled" class="number__input">  
+							<span class="dfbutton dfbutton3 pt-buttons">+</span>
+						</div>
+						<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+							<a href="#"><img src="images/k2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="df1">
+				<div class="dd-tab-left">
+					<div class="name-tovar tabs_float dd-tab-left_el_padding">
+						<span>Вино Tамрико Каха Глобал</span>
+						<p class="dd-p-catalog">Вино розовое</p>
+					</div>
+
+					<div class="dd-polosa tabs_float"></div>
+
+					<div class="dd-elements tabs_float">
+						<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+							<span class="basket__oneprice-text dd-font-size">$62</span>
+						</div>
+						<div class="df-number tabs_float">
+							<span class="dfbutton dfbutton2 pt-buttons">-</span>
+							<input type="text" value="34" disabled="disabled" class="number__input">  
+							<span class="dfbutton dfbutton3 pt-buttons">+</span>
+						</div>
+						<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+							<a href="#"><img src="images/k2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="df1">
+				<div class="dd-tab-left">
+					<div class="name-tovar tabs_float">
+						<span>Вино Кастелло Дель Соль</span>
+						<p class="dd-p-catalog">Вино красное полусухое</p>
+					</div>
+
+					<div class="dd-polosa tabs_float"></div>
+
+					<div class="dd-elements tabs_float">
+						<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+							<span class="basket__oneprice-text dd-font-size">$50</span>
+						</div>
+						<div class="df-number tabs_float">
+							<span class="dfbutton dfbutton2 pt-buttons">-</span>
+							<input type="text" value="34" disabled="disabled" class="number__input">  
+							<span class="dfbutton dfbutton3 pt-buttons">+</span>
+						</div>
+						<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+							<a href="#"><img src="images/k2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="df1">
+				<div class="dd-tab-left">
+					<div class="name-tovar tabs_float dd-tab-left_el_padding">
+						<span>Вино Tамрико Каха Глобал</span>
+						<p class="dd-p-catalog">Вино розовое</p>
+					</div>
+
+					<div class="dd-polosa tabs_float"></div>
+
+					<div class="dd-elements tabs_float">
+						<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+							<span class="basket__oneprice-text dd-font-size">$62</span>
+						</div>
+						<div class="df-number tabs_float">
+							<span class="dfbutton dfbutton2 pt-buttons">-</span>
+							<input type="text" value="34" disabled="disabled" class="number__input">  
+							<span class="dfbutton dfbutton3 pt-buttons">+</span>
+						</div>
+						<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+							<a href="#"><img src="images/k2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="dd-float-wrap-for-1700_2">
+			<div class="df1">
+				<div class="dd-tab-left">
+					<div class="name-tovar tabs_float dd-tab-left_el_padding">
+						<span>Вино Кастелло Дель Соль</span>
+						<p class="dd-p-catalog">Вино красное полусухое</p>
+					</div>
+
+					<div class="dd-polosa tabs_float"></div>
+
+					<div class="dd-elements tabs_float">
+						<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+							<span class="basket__oneprice-text dd-font-size">$50</span>
+						</div>
+						<div class="df-number tabs_float">
+							<span class="dfbutton dfbutton2 pt-buttons">-</span>
+							<input type="text" value="34" disabled="disabled" class="number__input">  
+							<span class="dfbutton dfbutton3 pt-buttons">+</span>
+						</div>
+						<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+							<a href="#"><img src="images/k2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="df1">
+				<div class="dd-tab-left">
+					<div class="name-tovar tabs_float dd-tab-left_el_padding">
+						<span>Вино Tамрико Каха Глобал</span>
+						<p class="dd-p-catalog">Вино розовое</p>
+					</div>
+
+					<div class="dd-polosa tabs_float"></div>
+
+					<div class="dd-elements tabs_float">
+						<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+							<span class="basket__oneprice-text dd-font-size">$62</span>
+						</div>
+						<div class="df-number tabs_float">
+							<span class="dfbutton dfbutton2 pt-buttons">-</span>
+							<input type="text" value="34" disabled="disabled" class="number__input">  
+							<span class="dfbutton dfbutton3 pt-buttons">+</span>
+						</div>
+						<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+							<a href="#"><img src="images/k2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="df1">
+				<div class="dd-tab-left">
+					<div class="name-tovar tabs_float">
+						<span>Вино Кастелло Дель Соль</span>
+						<p class="dd-p-catalog">Вино красное полусухое</p>
+					</div>
+
+					<div class="dd-polosa tabs_float"></div>
+
+					<div class="dd-elements tabs_float">
+						<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+							<span class="basket__oneprice-text dd-font-size">$50</span>
+						</div>
+						<div class="df-number tabs_float">
+							<span class="dfbutton dfbutton2 pt-buttons">-</span>
+							<input type="text" value="34" disabled="disabled" class="number__input">  
+							<span class="dfbutton dfbutton3 pt-buttons">+</span>
+						</div>
+						<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+							<a href="#"><img src="images/k2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="df1">
+				<div class="dd-tab-left">
+					<div class="name-tovar tabs_float dd-tab-left_el_padding">
+						<span>Вино Tамрико Каха Глобал</span>
+						<p class="dd-p-catalog">Вино розовое</p>
+					</div>
+
+					<div class="dd-polosa tabs_float"></div>
+
+					<div class="dd-elements tabs_float">
+						<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+							<span class="basket__oneprice-text dd-font-size">$62</span>
+						</div>
+						<div class="df-number tabs_float">
+							<span class="dfbutton dfbutton2 pt-buttons">-</span>
+							<input type="text" value="34" disabled="disabled" class="number__input">  
+							<span class="dfbutton dfbutton3 pt-buttons">+</span>
+						</div>
+						<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+							<a href="#"><img src="images/k2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="dd-load-more">
+			<a href="#">Загрузить больше</a>
+		</div>
+	</div>
+
+	<!-- Tab_2 /////////////-->
+
+	<div id="tab2" class="t1">
+		<div class="df1">
+			<div class="dd-tab-left">
+				<div class="name-tovar tabs_float dd-tab-left_el_padding">
+					<span>Вино Кастелло Дель Соль</span>
+					<p class="dd-p-catalog">Вино красное полусухое</p>
+				</div>
+
+				<div class="dd-polosa tabs_float"></div>
+
+				<div class="dd-elements tabs_float">
+					<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+						<span class="basket__oneprice-text dd-font-size">$50</span>
+					</div>
+					<div class="df-number tabs_float">
+						<span class="dfbutton dfbutton2 pt-buttons">-</span>
+						<input type="text" value="34" disabled="disabled" class="number__input">  
+						<span class="dfbutton dfbutton3 pt-buttons">+</span>
+					</div>
+					<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+						<a href="#"><img src="images/k2.png" alt=""></a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="df1">
+			<div class="dd-tab-left">
+				<div class="name-tovar tabs_float dd-tab-left_el_padding">
+					<span>Вино Tамрико Каха Глобал</span>
+					<p class="dd-p-catalog">Вино розовое</p>
+				</div>
+
+				<div class="dd-polosa tabs_float"></div>
+
+				<div class="dd-elements tabs_float">
+					<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+						<span class="basket__oneprice-text dd-font-size">$62</span>
+					</div>
+					<div class="df-number tabs_float">
+						<span class="dfbutton dfbutton2 pt-buttons">-</span>
+						<input type="text" value="34" disabled="disabled" class="number__input">  
+						<span class="dfbutton dfbutton3 pt-buttons">+</span>
+					</div>
+					<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+						<a href="#"><img src="images/k2.png" alt=""></a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="df1">
+			<div class="dd-tab-left">
+				<div class="name-tovar tabs_float">
+					<span>Вино Кастелло Дель Соль</span>
+					<p class="dd-p-catalog">Вино красное полусухое</p>
+				</div>
+
+				<div class="dd-polosa tabs_float"></div>
+
+				<div class="dd-elements tabs_float">
+					<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+						<span class="basket__oneprice-text dd-font-size">$50</span>
+					</div>
+					<div class="df-number tabs_float">
+						<span class="dfbutton dfbutton2 pt-buttons">-</span>
+						<input type="text" value="34" disabled="disabled" class="number__input">  
+						<span class="dfbutton dfbutton3 pt-buttons">+</span>
+					</div>
+					<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+						<a href="#"><img src="images/k2.png" alt=""></a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="df1">
+			<div class="dd-tab-left">
+				<div class="name-tovar tabs_float dd-tab-left_el_padding">
+					<span>Вино Tамрико Каха Глобал</span>
+					<p class="dd-p-catalog">Вино розовое</p>
+				</div>
+
+				<div class="dd-polosa tabs_float"></div>
+
+				<div class="dd-elements tabs_float">
+					<div class="dd-price2 tabs_float dd-tab-left_el_padding">
+						<span class="basket__oneprice-text dd-font-size">$62</span>
+					</div>
+					<div class="df-number tabs_float">
+						<span class="dfbutton dfbutton2 pt-buttons">-</span>
+						<input type="text" value="34" disabled="disabled" class="number__input">  
+						<span class="dfbutton dfbutton3 pt-buttons">+</span>
+					</div>
+					<div class="dd-korz-wrap dd-korz-wrap2 tabs_float">
+						<a href="#"><img src="images/k2.png" alt=""></a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
 </div>
+
+<script>
+
+
+</script>
 
 <section class="dd-catalog-wrap">
 	<div class="dd-catalog-container">
@@ -44,9 +388,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -74,9 +418,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -104,9 +448,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -134,9 +478,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -164,9 +508,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -194,9 +538,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -233,9 +577,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -263,9 +607,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -293,9 +637,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -323,9 +667,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -353,9 +697,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -383,9 +727,9 @@
 								</div>
 								<div class="dd-choose">
 									<div class="df-number dd-number">
-										<span class="dfbutton dfbutton2">+</span>
+										<span class="dfbutton dfbutton2">-</span>
 										<input type="text" value="140" disabled="disabled" class="number__input">  
-										<span class="dfbutton dfbutton3">-</span>
+										<span class="dfbutton dfbutton3">+</span>
 									</div>
 								</div>
 								<div class="clearfix"></div>
@@ -421,9 +765,9 @@
 									</div>
 									<div class="dd-choose">
 										<div class="df-number dd-number">
-											<span class="dfbutton dfbutton2">+</span>
+											<span class="dfbutton dfbutton2">-</span>
 											<input type="text" value="140" disabled="disabled" class="number__input">  
-											<span class="dfbutton dfbutton3">-</span>
+											<span class="dfbutton dfbutton3">+</span>
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -451,9 +795,9 @@
 									</div>
 									<div class="dd-choose">
 										<div class="df-number dd-number">
-											<span class="dfbutton dfbutton2">+</span>
+											<span class="dfbutton dfbutton2">-</span>
 											<input type="text" value="140" disabled="disabled" class="number__input">  
-											<span class="dfbutton dfbutton3">-</span>
+											<span class="dfbutton dfbutton3">+</span>
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -481,9 +825,9 @@
 									</div>
 									<div class="dd-choose">
 										<div class="df-number dd-number">
-											<span class="dfbutton dfbutton2">+</span>
+											<span class="dfbutton dfbutton2">-</span>
 											<input type="text" value="140" disabled="disabled" class="number__input">  
-											<span class="dfbutton dfbutton3">-</span>
+											<span class="dfbutton dfbutton3">+</span>
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -511,9 +855,9 @@
 									</div>
 									<div class="dd-choose">
 										<div class="df-number dd-number">
-											<span class="dfbutton dfbutton2">+</span>
+											<span class="dfbutton dfbutton2">-</span>
 											<input type="text" value="140" disabled="disabled" class="number__input">  
-											<span class="dfbutton dfbutton3">-</span>
+											<span class="dfbutton dfbutton3">+</span>
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -541,9 +885,9 @@
 									</div>
 									<div class="dd-choose">
 										<div class="df-number dd-number">
-											<span class="dfbutton dfbutton2">+</span>
+											<span class="dfbutton dfbutton2">-</span>
 											<input type="text" value="140" disabled="disabled" class="number__input">  
-											<span class="dfbutton dfbutton3">-</span>
+											<span class="dfbutton dfbutton3">+</span>
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -571,9 +915,9 @@
 									</div>
 									<div class="dd-choose">
 										<div class="df-number dd-number">
-											<span class="dfbutton dfbutton2">+</span>
+											<span class="dfbutton dfbutton2">-</span>
 											<input type="text" value="140" disabled="disabled" class="number__input">  
-											<span class="dfbutton dfbutton3">-</span>
+											<span class="dfbutton dfbutton3">+</span>
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -609,9 +953,9 @@
 										</div>
 										<div class="dd-choose">
 											<div class="df-number dd-number">
-												<span class="dfbutton dfbutton2">+</span>
+												<span class="dfbutton dfbutton2">-</span>
 												<input type="text" value="140" disabled="disabled" class="number__input">  
-												<span class="dfbutton dfbutton3">-</span>
+												<span class="dfbutton dfbutton3">+</span>
 											</div>
 										</div>
 										<div class="clearfix"></div>
@@ -639,9 +983,9 @@
 										</div>
 										<div class="dd-choose">
 											<div class="df-number dd-number">
-												<span class="dfbutton dfbutton2">+</span>
+												<span class="dfbutton dfbutton2">-</span>
 												<input type="text" value="140" disabled="disabled" class="number__input">  
-												<span class="dfbutton dfbutton3">-</span>
+												<span class="dfbutton dfbutton3">+</span>
 											</div>
 										</div>
 										<div class="clearfix"></div>
@@ -669,9 +1013,9 @@
 										</div>
 										<div class="dd-choose">
 											<div class="df-number dd-number">
-												<span class="dfbutton dfbutton2">+</span>
+												<span class="dfbutton dfbutton2">-</span>
 												<input type="text" value="140" disabled="disabled" class="number__input">  
-												<span class="dfbutton dfbutton3">-</span>
+												<span class="dfbutton dfbutton3">+</span>
 											</div>
 										</div>
 										<div class="clearfix"></div>
@@ -699,9 +1043,9 @@
 										</div>
 										<div class="dd-choose">
 											<div class="df-number dd-number">
-												<span class="dfbutton dfbutton2">+</span>
+												<span class="dfbutton dfbutton2">-</span>
 												<input type="text" value="140" disabled="disabled" class="number__input">  
-												<span class="dfbutton dfbutton3">-</span>
+												<span class="dfbutton dfbutton3">+</span>
 											</div>
 										</div>
 										<div class="clearfix"></div>
@@ -729,9 +1073,9 @@
 										</div>
 										<div class="dd-choose">
 											<div class="df-number dd-number">
-												<span class="dfbutton dfbutton2">+</span>
+												<span class="dfbutton dfbutton2">-</span>
 												<input type="text" value="140" disabled="disabled" class="number__input">  
-												<span class="dfbutton dfbutton3">-</span>
+												<span class="dfbutton dfbutton3">+</span>
 											</div>
 										</div>
 										<div class="clearfix"></div>
@@ -759,9 +1103,9 @@
 										</div>
 										<div class="dd-choose">
 											<div class="df-number dd-number">
-												<span class="dfbutton dfbutton2">+</span>
+												<span class="dfbutton dfbutton2">-</span>
 												<input type="text" value="140" disabled="disabled" class="number__input">  
-												<span class="dfbutton dfbutton3">-</span>
+												<span class="dfbutton dfbutton3">+</span>
 											</div>
 										</div>
 										<div class="clearfix"></div>
@@ -797,9 +1141,9 @@
 											</div>
 											<div class="dd-choose">
 												<div class="df-number dd-number">
-													<span class="dfbutton dfbutton2">+</span>
+													<span class="dfbutton dfbutton2">-</span>
 													<input type="text" value="140" disabled="disabled" class="number__input">  
-													<span class="dfbutton dfbutton3">-</span>
+													<span class="dfbutton dfbutton3">+</span>
 												</div>
 											</div>
 											<div class="clearfix"></div>
@@ -827,9 +1171,9 @@
 											</div>
 											<div class="dd-choose">
 												<div class="df-number dd-number">
-													<span class="dfbutton dfbutton2">+</span>
+													<span class="dfbutton dfbutton2">-</span>
 													<input type="text" value="140" disabled="disabled" class="number__input">  
-													<span class="dfbutton dfbutton3">-</span>
+													<span class="dfbutton dfbutton3">+</span>
 												</div>
 											</div>
 											<div class="clearfix"></div>
@@ -857,9 +1201,9 @@
 											</div>
 											<div class="dd-choose">
 												<div class="df-number dd-number">
-													<span class="dfbutton dfbutton2">+</span>
+													<span class="dfbutton dfbutton2">-</span>
 													<input type="text" value="140" disabled="disabled" class="number__input">  
-													<span class="dfbutton dfbutton3">-</span>
+													<span class="dfbutton dfbutton3">+</span>
 												</div>
 											</div>
 											<div class="clearfix"></div>
@@ -887,9 +1231,9 @@
 											</div>
 											<div class="dd-choose">
 												<div class="df-number dd-number">
-													<span class="dfbutton dfbutton2">+</span>
+													<span class="dfbutton dfbutton2">-</span>
 													<input type="text" value="140" disabled="disabled" class="number__input">  
-													<span class="dfbutton dfbutton3">-</span>
+													<span class="dfbutton dfbutton3">+</span>
 												</div>
 											</div>
 											<div class="clearfix"></div>
@@ -917,9 +1261,9 @@
 											</div>
 											<div class="dd-choose">
 												<div class="df-number dd-number">
-													<span class="dfbutton dfbutton2">+</span>
+													<span class="dfbutton dfbutton2">-</span>
 													<input type="text" value="140" disabled="disabled" class="number__input">  
-													<span class="dfbutton dfbutton3">-</span>
+													<span class="dfbutton dfbutton3">+</span>
 												</div>
 											</div>
 											<div class="clearfix"></div>
@@ -947,9 +1291,9 @@
 											</div>
 											<div class="dd-choose">
 												<div class="df-number dd-number">
-													<span class="dfbutton dfbutton2">+</span>
+													<span class="dfbutton dfbutton2">-</span>
 													<input type="text" value="140" disabled="disabled" class="number__input">  
-													<span class="dfbutton dfbutton3">-</span>
+													<span class="dfbutton dfbutton3">+</span>
 												</div>
 											</div>
 											<div class="clearfix"></div>
@@ -985,9 +1329,9 @@
 												</div>
 												<div class="dd-choose">
 													<div class="df-number dd-number">
-														<span class="dfbutton dfbutton2">+</span>
+														<span class="dfbutton dfbutton2">-</span>
 														<input type="text" value="140" disabled="disabled" class="number__input">  
-														<span class="dfbutton dfbutton3">-</span>
+														<span class="dfbutton dfbutton3">+</span>
 													</div>
 												</div>
 												<div class="clearfix"></div>
@@ -1015,9 +1359,9 @@
 												</div>
 												<div class="dd-choose">
 													<div class="df-number dd-number">
-														<span class="dfbutton dfbutton2">+</span>
+														<span class="dfbutton dfbutton2">-</span>
 														<input type="text" value="140" disabled="disabled" class="number__input">  
-														<span class="dfbutton dfbutton3">-</span>
+														<span class="dfbutton dfbutton3">+</span>
 													</div>
 												</div>
 												<div class="clearfix"></div>
@@ -1045,9 +1389,9 @@
 												</div>
 												<div class="dd-choose">
 													<div class="df-number dd-number">
-														<span class="dfbutton dfbutton2">+</span>
+														<span class="dfbutton dfbutton2">-</span>
 														<input type="text" value="140" disabled="disabled" class="number__input">  
-														<span class="dfbutton dfbutton3">-</span>
+														<span class="dfbutton dfbutton3">+</span>
 													</div>
 												</div>
 												<div class="clearfix"></div>
@@ -1075,9 +1419,9 @@
 												</div>
 												<div class="dd-choose">
 													<div class="df-number dd-number">
-														<span class="dfbutton dfbutton2">+</span>
+														<span class="dfbutton dfbutton2">-</span>
 														<input type="text" value="140" disabled="disabled" class="number__input">  
-														<span class="dfbutton dfbutton3">-</span>
+														<span class="dfbutton dfbutton3">+</span>
 													</div>
 												</div>
 												<div class="clearfix"></div>
@@ -1105,9 +1449,9 @@
 												</div>
 												<div class="dd-choose">
 													<div class="df-number dd-number">
-														<span class="dfbutton dfbutton2">+</span>
+														<span class="dfbutton dfbutton2">-</span>
 														<input type="text" value="140" disabled="disabled" class="number__input">  
-														<span class="dfbutton dfbutton3">-</span>
+														<span class="dfbutton dfbutton3">+</span>
 													</div>
 												</div>
 												<div class="clearfix"></div>
@@ -1135,9 +1479,9 @@
 												</div>
 												<div class="dd-choose">
 													<div class="df-number dd-number">
-														<span class="dfbutton dfbutton2">+</span>
+														<span class="dfbutton dfbutton2">-</span>
 														<input type="text" value="140" disabled="disabled" class="number__input">  
-														<span class="dfbutton dfbutton3">-</span>
+														<span class="dfbutton dfbutton3">+</span>
 													</div>
 												</div>
 												<div class="clearfix"></div>
@@ -1173,9 +1517,9 @@
 													</div>
 													<div class="dd-choose">
 														<div class="df-number dd-number">
-															<span class="dfbutton dfbutton2">+</span>
+															<span class="dfbutton dfbutton2">-</span>
 															<input type="text" value="140" disabled="disabled" class="number__input">  
-															<span class="dfbutton dfbutton3">-</span>
+															<span class="dfbutton dfbutton3">+</span>
 														</div>
 													</div>
 													<div class="clearfix"></div>
@@ -1203,9 +1547,9 @@
 													</div>
 													<div class="dd-choose">
 														<div class="df-number dd-number">
-															<span class="dfbutton dfbutton2">+</span>
+															<span class="dfbutton dfbutton2">-</span>
 															<input type="text" value="140" disabled="disabled" class="number__input">  
-															<span class="dfbutton dfbutton3">-</span>
+															<span class="dfbutton dfbutton3">+</span>
 														</div>
 													</div>
 													<div class="clearfix"></div>
@@ -1233,9 +1577,9 @@
 													</div>
 													<div class="dd-choose">
 														<div class="df-number dd-number">
-															<span class="dfbutton dfbutton2">+</span>
+															<span class="dfbutton dfbutton2">-</span>
 															<input type="text" value="140" disabled="disabled" class="number__input">  
-															<span class="dfbutton dfbutton3">-</span>
+															<span class="dfbutton dfbutton3">+</span>
 														</div>
 													</div>
 													<div class="clearfix"></div>
@@ -1263,9 +1607,9 @@
 													</div>
 													<div class="dd-choose">
 														<div class="df-number dd-number">
-															<span class="dfbutton dfbutton2">+</span>
+															<span class="dfbutton dfbutton2">-</span>
 															<input type="text" value="140" disabled="disabled" class="number__input">  
-															<span class="dfbutton dfbutton3">-</span>
+															<span class="dfbutton dfbutton3">+</span>
 														</div>
 													</div>
 													<div class="clearfix"></div>
@@ -1293,9 +1637,9 @@
 													</div>
 													<div class="dd-choose">
 														<div class="df-number dd-number">
-															<span class="dfbutton dfbutton2">+</span>
+															<span class="dfbutton dfbutton2">-</span>
 															<input type="text" value="140" disabled="disabled" class="number__input">  
-															<span class="dfbutton dfbutton3">-</span>
+															<span class="dfbutton dfbutton3">+</span>
 														</div>
 													</div>
 													<div class="clearfix"></div>
@@ -1323,9 +1667,9 @@
 													</div>
 													<div class="dd-choose">
 														<div class="df-number dd-number">
-															<span class="dfbutton dfbutton2">+</span>
+															<span class="dfbutton dfbutton2">-</span>
 															<input type="text" value="140" disabled="disabled" class="number__input">  
-															<span class="dfbutton dfbutton3">-</span>
+															<span class="dfbutton dfbutton3">+</span>
 														</div>
 													</div>
 													<div class="clearfix"></div>
@@ -1355,22 +1699,7 @@
 						</section>
 
 						<script>
-							$(function() {
-								$(".dd-a-border").click(function(e){
-									e.preventDefault();
-									var $this = $(this);
-									answerId = $this.attr("href");
-
-									if( !$this.hasClass("active")){
-										$(".dd-sub-menu").slideUp();
-										$(".dd-a-border").removeClass("active");
-									}
-
-									$this.toggleClass("active"); 
-									$(answerId).slideToggle();
-
-								});
-							});
+					
 						</script>
 						<?php require_once('includes/footer.php'); ?>
 

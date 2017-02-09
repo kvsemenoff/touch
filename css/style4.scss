@@ -3,6 +3,7 @@
 =====================================*/
 .dd-catalog-container{
 	max-width:1840px;
+	width: 100%;
 	margin: 0 auto;
 	display:none;
 }
@@ -11,7 +12,6 @@
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	outline:2px solid red;
 }
 .catalog-p-bottom{
 	padding-bottom: 37px;
@@ -57,8 +57,18 @@
 		color:#303030;
 	}
 }
+.name-tovar{
+	span{
+		font-family: "Lato-Semibold";
+		color:#303030;
+		font-size: 25px;
+	}
+	p{
+
+	}
+}
 .dd-number{
-	width: 123px !important;
+	width: 126px !important;
 	height: 36px;
 	margin-top: 0 !important;
 	input[type="text"]{
@@ -131,6 +141,9 @@
 /* Каталог dekstop
 =====================================*/
 .dd-catalog-pc-tab{
+	height: 62px;
+	margin-top: 33px;
+	max-width:1466px;
 	li{
 		display: inline-block;
 		margin-left: -4px;
@@ -146,6 +159,72 @@
 			border: 1px solid #1f191a;
 			border-radius:3px;
 		}
+		.active, a:hover{
+			background:#FF662B;
+			border:1px solid #FF662B;
+			border-radius:3px;
+			color:#fff; 
+		}
+	}
+}
+.dd-catalog-pc-tab {
+	float:left;
+}
+.dd-catalog-poisk_pc{
+	float:right;
+}
+.dd-catalog-poisk_pc{
+	width: 216px;
+	margin-top: 33px;
+	margin-left: 20px;
+	input[type="text"]{
+		height: 60px;
+	}
+}
+.name-tovar{
+	width: 324px;
+}
+//Блок с полосой
+.dd-polosa{
+	border-bottom:1px solid #E5E2E2;
+	width: 184px;
+	padding: 25px 15px 0px;
+} 
+.tabs_float{
+	float:left;
+}
+.dd-price2{
+	width: 100px;
+	padding-left: 25px;
+}
+.dd-korz-wrap2{
+	width: 111px;
+}
+.dd-elements{
+	.df-number{
+		width: 152px;
+		height: 50px;
+		padding-top: 5px;
+	}
+}
+.df1{
+	margin-top: 90px;
+	margin-bottom: 94px;
+}
+.dd-tab-left_el_padding{
+	padding-top: 13px;
+}
+.t1{
+	display:none;
+}
+.dfbutton{
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+}
+.dd-load-more{
+	a{
+
 	}
 }
 
@@ -192,4 +271,27 @@
 
 @media only screen and (min-width : 1248px) {
 }
-
+@media only screen and (min-width : 1700px) {
+	.dd-catalog-pc-tab{
+		li{
+			a{
+			font-size: 22px;
+			padding: 18px 35px;
+		}
+	}
+}
+.dd-float-wrap-for-1700{
+	float:left;
+	height: 780px;
+	margin-top: 34px;
+	margin-bottom: 34px;
+}
+.dd-float-wrap-for-1700_2{
+	margin-top: 34px;
+	margin-bottom: 34px;
+	float:right;
+	height: 780px;
+	padding-left: 39px;
+	border-left:1px solid #8F8C8C;
+}
+}

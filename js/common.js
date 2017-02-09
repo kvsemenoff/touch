@@ -2,18 +2,18 @@
 
 $(document).ready(function(){
     $('.header__menu_mobile').click(function(e){
-            e.preventDefault();
-            $('.section_padding-db-header_bottom2').slideToggle();
+        e.preventDefault();
+        $('.section_padding-db-header_bottom2').slideToggle();
     });
     $(window).resize(function(){
         var $this = $(this);
         if($this.width() > 1248){
-             $('.section_padding-db-header_bottom2').css("display" , "block");
-        }
-        else{
-            $('.section_padding-db-header_bottom2').css("display" , "none");
-        }
-    });
+         $('.section_padding-db-header_bottom2').css("display" , "block");
+     }
+     else{
+        $('.section_padding-db-header_bottom2').css("display" , "none");
+    }
+});
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
@@ -85,11 +85,11 @@ $(document).ready(function(){
       var empty = false;
       if (tel.val() == ""){
         empty = true;
-      }
-      if (empty == true){
+    }
+    if (empty == true){
         tel.addClass("error-input");
         tel.focus();
-      }else{
+    }else{
         var form_data = $(this).serialize(); 
         $.ajax({
           type: "POST", 
@@ -97,32 +97,32 @@ $(document).ready(function(){
           data: form_data,
           success: function() {
             cleanTnanks(this);
-          }
-        });
-      }
-      return false;
+        }
     });
+    }
+    return false;
+});
 
     let basketNumber = $(".basket__number"),
-        onepriceArray = [],
-        totalInput = $(".basket__totalprice-text"),
-        numberInput = $('.number__input'),
-        totalprice = 0;
+    onepriceArray = [],
+    totalInput = $(".basket__totalprice-text"),
+    numberInput = $('.number__input'),
+    totalprice = 0;
 
     for(let i=0; i<basketNumber.length;i++) {
         onepriceArray.push($(basketNumber[i]).text());
     }
     $(".df-number .dfbutton").on("click", function() {
         var totalInputOne = $(this).parent().parent().parent().find(".basket__totalprice-text"),
-            inputParent = $(this).parent().parent().parent(),
-            inputId = $(inputParent).attr("class"),
-            inputIdLength = inputId[inputId.length-1];
-            idx = inputId[inputId.length-1];
-            $(totalInputOne).text(onepriceArray[inputIdLength]);
+        inputParent = $(this).parent().parent().parent(),
+        inputId = $(inputParent).attr("class"),
+        inputIdLength = inputId[inputId.length-1];
+        idx = inputId[inputId.length-1];
+        $(totalInputOne).text(onepriceArray[inputIdLength]);
         if(totalprice == 0)
             totalprice = parseFloat(onepriceArray[idx-1]);
-            var $button = $(this);
-            var oldValue = $button.parent().find(".number__input").val();
+        var $button = $(this);
+        var oldValue = $button.parent().find(".number__input").val();
         if ($button.attr("mark") == "+") {
             var newVal = parseFloat(oldValue) + 1;
             $(numberInput[inputIdLength]).val(newVal);
@@ -137,10 +137,57 @@ $(document).ready(function(){
                 $(totalInputOne).text(totalprice +'$');
             }
         }
-     })
+    });
     $(".close__btn").on("click", function() {
        $(this).closest(".basket__item").empty();
-    })
- });
+   });
+
+    // Каталог......................................//
+    $('.tab a').click(function(e) {
+        e.preventDefault();
+        $('a').removeClass('active');
+        $(this).addClass('active');
+        var tab = $(this).attr('href');
+        $('.t1').not(tab).css({'display':'none'});
+        $(tab).fadeIn(400);       
+    });
+    $('.tab a:first').click();
+
+    $(".df-number .dfbutton").on("click", function() {
+
+        var $button = $(this);
+        var oldValue = $button.parent().find("input").val();  
+
+        if ($button.text() == "+") {
+            var newVal = parseFloat(oldValue) + 1;
+        }  
+        else {
+     // Don't allow decrementing below zero
+     if (oldValue > 1) {
+        var newVal = parseFloat(oldValue) - 1;
+    } else {
+        newVal = 1;
+    }
+}
+
+$button.parent().find("input").val(newVal);
+});
+    $(function() {
+        $(".dd-a-border").click(function(e){
+            e.preventDefault();
+            var $this = $(this);
+            answerId = $this.attr("href");
+
+            if( !$this.hasClass("active")){
+                $(".dd-sub-menu").slideUp();
+                $(".dd-a-border").removeClass("active");
+            }
+
+            $this.toggleClass("active"); 
+            $(answerId).slideToggle();
+
+        });
+    });
+});
 
 
