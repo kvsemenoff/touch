@@ -21,7 +21,7 @@
 						</div>
 					</td>
 					<td class="basket__item-oneprice modified__item mobile__shown">
-						<span class="basket__oneprice-text">$<span class="basket__number">50</span></span>
+						<span class="basket__oneprice-text">$50</span>
 					</td>
 					<td class="basket__item-totalprice modified__item">
 						<a href="#" class="close__btn"></a>
