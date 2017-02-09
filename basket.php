@@ -57,7 +57,7 @@
 						<p class="basket__item-description">Вино красное полусухое</p>
 					</td>
 					<td class="basket__item-oneprice modified__item desktop__shown">
-						<span class="basket__oneprice-text">$50</span>
+						<span class="basket__oneprice-text">$<span class="basket__number">50</span></span>
 					</td>
 					<td class="basket__item-count modified__item">
 						<div class="df-number">
