@@ -102,33 +102,49 @@ $(document).ready(function(){
       }
       return false;
     });
-    
+
+    let basketNumber = $(".basket__number"),
+        onepriceArray = [],
+        totalInput = $(".basket__totalprice-text"),
+        numberInput = $('.number__input'),
+        totalprice = 0;
+
+    for(let i=0; i<basketNumber.length;i++) {
+        onepriceArray.push($(basketNumber[i]).text());
+    }
     $(".df-number .dfbutton").on("click", function() {
-        let onepriceArray = parseFloat($(this).parent().parent().parent().find(".basket__number").text().trim()),
-            oneprice = onepriceArray.toString().slice(0,2),
-            totalInput = $(this).parent().parent().parent().find(".basket__totalprice-text");
-            $(totalInput).text(oneprice),
-            totalprice = parseFloat(oneprice);
-        var $button = $(this);
-        var oldValue = $button.parent().find(".number__input").val(),
-            idx = $button.parent().find(".number__input");
+        var totalInputOne = $(this).parent().parent().parent().find(".basket__totalprice-text"),
+            inputParent = $(this).parent().parent().parent(),
+            inputId = $(inputParent).attr("id"),
+            idx = inputId[inputId.length-1];
+            $(totalInputOne).text(onepriceArray[inputId]);
+        if(totalprice == 0)
+            totalprice = parseFloat(onepriceArray[idx-1]);
+            var $button = $(this);
+            var oldValue = $button.parent().find(".number__input").val();
         if ($button.attr("mark") == "+") {
             var newVal = parseFloat(oldValue) + 1;
-            $(idx).val(newVal);
-            totalprice += parseFloat(oneprice);
-            $(totalInput).text(totalprice)
+            $(numberInput[idx - 1]).val(newVal);
+            totalprice += parseFloat(onepriceArray[idx-1]);
+            $(totalInputOne).text(totalprice +'$');
         }
-        // else {
-        //     if (oldValue > 1) {
-        //         var newVal = parseFloat(oldValue) - 1;
-        //         $(idx).val(newVal);
-        //         totalprice -= parseFloat(oneprice);
-        //     } else {
-        //         newVal = 1;
-        //         totalprice = oneprice;
-        //     }
-        // }
+        else {
+            if (oldValue > 1) {
+                var newVal = parseFloat(oldValue) - 1;
+                $(numberInput[idx - 1]).val(newVal);
+                totalprice -= 50;
+                $(totalInputOne).text(totalprice +'$');
+            // } else {
+            //     newVal = 1;
+            //     totalprice = parseFloat(onepriceArray[idx-1]);
+            //     $(totalInputOne).text(totalprice)
+            // }
+            }
+        }
      })
+    $(".close__btn").on("click", function() {
+       $(this).closest(".basket__item").empty();
+    })
  });
 
 

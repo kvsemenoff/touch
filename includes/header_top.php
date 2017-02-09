@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container payment__container">
     <header class="header">
         <div class="header__left_wrapper header__inner_wrapper">
             <a href="#" class="header__logo"></a>
