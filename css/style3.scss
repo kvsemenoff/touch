@@ -294,6 +294,10 @@
 		font-weight: 300;
 		line-height: 26px;
 	}
+}
+
+.header__popup {
+	display: none;
 
 	.button-5 {
         width: 316px;
@@ -324,11 +328,6 @@
 	padding-top: 16px;
 	padding-bottom: 16px;
 	width: 100%;
-
-	.container {
-		margin-left: 63px;
-		margin-right: 0px;
-	}
 
 	.dc_footer_hr {
         width: 0px;
