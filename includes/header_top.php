@@ -23,7 +23,7 @@
         </div>
 
     </header>
-<<<<<<< HEAD
+
 </div>
 
 <!-- Latest compiled and minified CSS -->
@@ -174,6 +174,3 @@
         });
     });
 </script>
-=======
-</div>
->>>>>>> 5bfb4f3fc1fae80d48e1a6a1f7e21687557842ce
