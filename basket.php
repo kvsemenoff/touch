@@ -5,7 +5,7 @@
 	<h2 class="basket__title">Корзина</h2>
 	<form action="#" name="basket__form">
 		<table class="basket__list">
-				<tr class="basket__item" id="basket__item1">
+				<tr class="basket__item basket__item1">
 					<td class="basket__item-info">
 						<span class="basket__item-title">Вино Кастелло Дель Соль</span>
 						<p class="basket__item-description">Вино красное полусухое</p>
@@ -28,7 +28,7 @@
 						<p class="basket__totalprice-text">50$</p>
 					</td>
 				</tr>
-				<tr class="basket__item" id="basket__item2">
+				<tr class="basket__item basket__item2">
 					<td class="basket__item-info">
 						<span class="basket__item-title">Вино Кастелло Дель Соль</span>
 						<p class="basket__item-description">Вино красное полусухое</p>
@@ -51,7 +51,7 @@
 						<span class="basket__totalprice-text">50$</span>
 					</td>
 				</tr>
-				<tr class="basket__item" id="basket__item3">
+				<tr class="basket__item basket__item2">
 					<td class="basket__item-info">
 						<span class="basket__item-title">Вино Кастелло Дель Соль</span>
 						<p class="basket__item-description">Вино красное полусухое</p>

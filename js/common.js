@@ -115,30 +115,26 @@ $(document).ready(function(){
     $(".df-number .dfbutton").on("click", function() {
         var totalInputOne = $(this).parent().parent().parent().find(".basket__totalprice-text"),
             inputParent = $(this).parent().parent().parent(),
-            inputId = $(inputParent).attr("id"),
+            inputId = $(inputParent).attr("class"),
+            inputIdLength = inputId[inputId.length-1];
             idx = inputId[inputId.length-1];
-            $(totalInputOne).text(onepriceArray[inputId]);
+            $(totalInputOne).text(onepriceArray[inputIdLength]);
         if(totalprice == 0)
             totalprice = parseFloat(onepriceArray[idx-1]);
             var $button = $(this);
             var oldValue = $button.parent().find(".number__input").val();
         if ($button.attr("mark") == "+") {
             var newVal = parseFloat(oldValue) + 1;
-            $(numberInput[idx - 1]).val(newVal);
-            totalprice += parseFloat(onepriceArray[idx-1]);
+            $(numberInput[inputIdLength]).val(newVal);
+            totalprice += parseFloat(onepriceArray[inputIdLength]);
             $(totalInputOne).text(totalprice +'$');
         }
         else {
             if (oldValue > 1) {
                 var newVal = parseFloat(oldValue) - 1;
-                $(numberInput[idx - 1]).val(newVal);
-                totalprice -= 50;
+                $(numberInput[inputIdLength]).val(newVal);
+                totalprice -= parseFloat(onepriceArray[inputIdLength]);
                 $(totalInputOne).text(totalprice +'$');
-            // } else {
-            //     newVal = 1;
-            //     totalprice = parseFloat(onepriceArray[idx-1]);
-            //     $(totalInputOne).text(totalprice)
-            // }
             }
         }
      })
