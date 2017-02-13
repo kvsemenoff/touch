@@ -8,6 +8,7 @@
                 <li class="banner__menu_item"><a href="#" class="banner__menu_link">Оформление заказа</a></li>
                 <li class="banner__menu_item"><a href="#" class="banner__menu_link">Доставка и оплата</a></li>
             </ul>
+            <a href="#owr_kits" class="down__link"></a>
         </nav>
         <div class="banner__text">
             <p class="banner__text_p">
