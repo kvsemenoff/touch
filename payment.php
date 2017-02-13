@@ -98,7 +98,18 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, earum perferendis, ad animi pariatur sint quae expedita alias magni, inventore in? Odio, magnam quas animi minima, ullam asperiores nesciunt delectus.
                             </span>
                         </label>
-
+                        <ul class="logo__list">
+                            <li class="logo__item"><a href="http://home.americanexpress.com/home/global_splash.html"><img src="../img/AmericanExpress50.jpg" alt=""></a></li>
+                            <li class="logo__item"><a href=" www.dinersclub.com"><img src="../img/DCI-Logo-horz.jpg" alt=""></a></li>
+                            <li class="logo__item"><a href="https://www.discover.com"><img src="../img/DISCOVER.jpg" alt=""></a></li>
+                            <li class="logo__item"><a href="http://www.mastercard.com"><img src="../img/MasterCard50.gif" alt=""></a></li>
+                            <li class="logo__item"><a href="http://www.maestrocard.com"><img src="../img/Maestro50.gif" alt=""></a></li>
+                            <li class="logo__item"><a href="http://www.visa.com"><img src="../img/VISA50.gif" alt=""></a></li>
+                            <li class="logo__item"><a href="http://www.visa.com"><img src="../img/VerifiedbyVisa.jpg" alt=""></a></li>
+                            <li class="logo__item"><a href="http://www.mastercard.com"><img src="../img/secureCode_logo.gif" alt=""></a></li>
+                            <li class="logo__item"><a href="http://home.americanexpress.com/home/global_splash.html"><img src="../img/ax_guarenteed.gif" alt=""></a></li>
+                            <li class="logo__item corvus"><a href="http://www.corvuspay.hr"><img src="../img/CorvusPay.png" alt=""></a></li>
+                        </ul>
                     </div>
                     <div class="agreement__block">
                         <input type="checkbox" id="agreement__checkbox" name="agreement__checkbox" class="agreement__checkbox">
