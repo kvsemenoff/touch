@@ -1,23 +1,6 @@
 <?php require_once('includes/header.php'); ?>
 <?php require_once('includes/header_bottom2.php'); ?>
 
-
-<!-- <div class="n-wrapper">
-		<div class="n-header">
-		</div>
-    
-		<div class="n-content">
-			<div class="n-content-inner vertical-align">
-			</div>
-		</div>
-
-		<div class="n-footer">
-		</div>
-    
-</div> -->
-
-
-
 <div class="dd-catalog-container2">
 	<div class="dd-catalog-pc-tab">
 		<ul class="tab">
@@ -1578,7 +1561,7 @@
 			<a href="#">Загрузить больше</a>
 		</div>
 	</div>
-
+</div>
 
 
 
