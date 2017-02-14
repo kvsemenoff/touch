@@ -4,7 +4,7 @@
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <h2>Наши наборы</h2>
             </div>    
-            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 full__img">
                 <div class="">
                     <img class="dc-our-kits-image" src="images/dc-our-kits-1.jpg">
                 </div>
@@ -20,7 +20,7 @@
                     </form>
                 </div>
             </div>    
-            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 full__img">
                 <div class="">
                     <img class="dc-our-kits-image" src="images/dc-our-kits-2.png">
                 </div>
@@ -36,7 +36,7 @@
                     </form>
                 </div>
             </div>    
-            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 full__img">
                 <div class="">
                     <img class="dc-our-kits-image" src="images/dc-our-kits-3.png">
                 </div>
@@ -52,7 +52,7 @@
                     </form>
                 </div>
             </div>    
-            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 full__img">
                 <div class="">
                     <img class="dc-our-kits-image" src="images/dc-our-kits-4.png">
                 </div>
