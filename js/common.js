@@ -50,6 +50,15 @@ $(document).ready(function(){
     $(".payment__checkbox").on("click", function(){
         $(this).closest(".payment__check-block").toggleClass("checked__box").siblings().removeClass("checked__box");
     })
+    $(".checkbox").on("click", function(){
+        if($(this).parent().parent().hasClass("dc-li")) {
+            $(this).parent().parent().toggleClass("checked__box").siblings().removeClass("checked__box");
+        }
+        else if($(this).parent().parent().hasClass("dc-li1")) {
+            $(this).parent().parent().toggleClass("checked__box1").siblings().removeClass("checked__box1");
+        }
+    })
+
 
     $("select option[value=1]").hide();
 

@@ -99,7 +99,7 @@
 		                		</li>
 		                		<li class="dc-li">
 		                		    <label>
-				    					<input class="checkbox" type="checkbox" name="checkbox-test" checked>
+				    					<input class="checkbox" type="checkbox" name="checkbox-test">
 				    					<span class="checkbox-custom"></span>
 				    					<span class="label"></span>
 									</label>
@@ -164,7 +164,7 @@
 		                		</li>
 		                		<li class="dc-li1">
 		                		    <label>
-				    					<input class="checkbox" type="checkbox" name="checkbox-test" checked>
+				    					<input class="checkbox" type="checkbox" name="checkbox-test">
 				    					<span class="checkbox-custom"></span>
 				    					<span class="label"></span>
 									</label>
@@ -229,7 +229,7 @@
 		                		</li>
 		                		<li class="dc-li">
 		                		    <label>
-				    					<input class="checkbox" type="checkbox" name="checkbox-test" checked>
+				    					<input class="checkbox" type="checkbox" name="checkbox-test">
 				    					<span class="checkbox-custom"></span>
 				    					<span class="label"></span>
 									</label>
