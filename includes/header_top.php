@@ -177,17 +177,19 @@
                 </div>
 
                 <div class="header__buttons">
-                    <form>
-                        <input type="button" name="" value="Активировать" class="button-7 button-9">
-                    </form>
+                    <div class="container top__container">
+                        <form>
+                            <input type="button" name="" value="Активировать" class="button-7 button-9 first__btn">
+                        </form>
 
-                    <form>
-                        <input type="button" name="" value="Перейти в корзину" class="button-8 button-9">
-                    </form>
-                
-                    <form>
-                        <input type="button" name="" value="Оформить заказ" class="button-7 button-9">
-                    </form>
+                        <form>
+                            <input type="button" name="" value="Перейти в корзину" class="button-8 button-9">
+                        </form>
+                    
+                        <form>
+                            <input type="button" name="" value="Оформить заказ" class="button-7 button-9 last__btn">
+                        </form>
+                    </div>
                 </div>
 </div>
 

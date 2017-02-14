@@ -2,7 +2,7 @@
 <?php require_once('includes/header_top.php'); ?>
 <?php require_once('includes/header_bottom2.php'); ?>
 
-<div class="dd-catalog-container2">
+<div class="dd-catalog-container2 kits__container">
 	<div class="dd-catalog-pc-tab">
 		<ul class="tab">
 			<li><a class="active" href="#tab1">напитки</a></li>

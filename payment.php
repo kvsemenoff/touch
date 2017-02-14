@@ -5,6 +5,7 @@
     <div class="container payment__container">
         <h2 class="payment__head">Оформление заказа</h2>
             <div class="payment_block personal__block">
+                <div class="container wrap__container">
                     <form action="#" class="form11">
                         <table class="payment__table personal__table">
                         <tbody>
@@ -29,8 +30,10 @@
                         </tbody>
                         </table>
                     </form>
+                </div>
             </div>
             <div class="payment_block extra__block">
+                <div class="container wrap__container">
                     <table class="payment__table extra__table">
                         <tbody>
                             <tr class="personal__info-bottom">
@@ -68,8 +71,10 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
             </div>
             <div class="payment__content">
+                <div class="container wrap__container">
                     <h2 class="payment__head payment__title">Оплата</h2>
                     <div class="payment__check-block">
                         <input type="radio" name="card" id="card__checkbox" class="checked__box payment__checkbox">
@@ -93,7 +98,18 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, earum perferendis, ad animi pariatur sint quae expedita alias magni, inventore in? Odio, magnam quas animi minima, ullam asperiores nesciunt delectus.
                             </span>
                         </label>
-
+                        <ul class="logo__list">
+                            <li class="logo__item"><a href="http://home.americanexpress.com/home/global_splash.html"><img src="../img/AmericanExpress50.jpg" alt=""></a></li>
+                            <li class="logo__item"><a href=" www.dinersclub.com"><img src="../img/DCI-Logo-horz.jpg" alt=""></a></li>
+                            <li class="logo__item"><a href="https://www.discover.com"><img src="../img/DISCOVER.jpg" alt=""></a></li>
+                            <li class="logo__item"><a href="http://www.mastercard.com"><img src="../img/MasterCard50.gif" alt=""></a></li>
+                            <li class="logo__item"><a href="http://www.maestrocard.com"><img src="../img/Maestro50.gif" alt=""></a></li>
+                            <li class="logo__item"><a href="http://www.visa.com"><img src="../img/VISA50.gif" alt=""></a></li>
+                            <li class="logo__item"><a href="http://www.visa.com"><img src="../img/VerifiedbyVisa.jpg" alt=""></a></li>
+                            <li class="logo__item"><a href="http://www.mastercard.com"><img src="../img/secureCode_logo.gif" alt=""></a></li>
+                            <li class="logo__item"><a href="http://home.americanexpress.com/home/global_splash.html"><img src="../img/ax_guarenteed.gif" alt=""></a></li>
+                            <li class="logo__item corvus"><a href="http://www.corvuspay.hr"><img src="../img/CorvusPay.png" alt=""></a></li>
+                        </ul>
                     </div>
                     <div class="agreement__block">
                         <input type="checkbox" id="agreement__checkbox" name="agreement__checkbox" class="agreement__checkbox">
@@ -102,12 +118,15 @@
                         <a href="#" class="agreement__link">Согласен с условиями и правилами</a>
                         <input type="submit" class="submit promo__activate payment__btn" value="Оплатить">
                     </div>
+                </div>
             </div>
         <div class="conditions__block">
-            <h3 class="conditions__head">Если вы заказываете доставку на марину</h3>
-            <p class="conditions__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est </p>
-            <h3 class="conditions__head">Если вы заказываете доставку в отель</h3>
-            <p class="conditions__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est </p>
+            <div class="container wrap__container">
+                <h3 class="conditions__head">Если вы заказываете доставку на марину</h3>
+                <p class="conditions__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est </p>
+                <h3 class="conditions__head">Если вы заказываете доставку в отель</h3>
+                <p class="conditions__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est </p>
+            </div>
         </div>
     </div>    
 </section>

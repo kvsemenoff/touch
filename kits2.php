@@ -1,5 +1,8 @@
+<?php require_once('includes/header.php'); ?>
+<?php require_once('includes/header_top.php'); ?>
+<?php require_once('includes/header_bottom2.php'); ?>
 <section class="section dc_nabory_view">
-    <div class="container">
+    <div class="container kits__container">
         <div class="row">                  
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <h2>Готовый набор</h2>
@@ -11,7 +14,7 @@
     </div>
 
     <div class="dc-nabory-select_and_choose">
-	    <div class="container">
+	    <div class="container kits__container">
 	        <div class="row">                  
 	            <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
 	                <div class="dc-nabory-choose">
@@ -53,7 +56,7 @@
 	    </div>
     </div>
 
-    <div class="container">
+    <div class="container kits__container">
 	    <div class="row">                  
 	        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
 	            <div class="dc-nabory-menu">
@@ -67,7 +70,7 @@
 	</div>
 
     <div class="for_padding">
-	    <div class="container">
+	    <div class="container kits__container">
 		    <div class="row">                  
 		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
 		            <div class="dc-nabory-image-block">
@@ -132,7 +135,7 @@
 	</div>
 
     <div class="for_padding">
-	    <div class="container">
+	    <div class="container kits__container">
 		    <div class="row">                  
 		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
 		            <div class="dc-nabory-image-block">
@@ -197,7 +200,7 @@
 	</div>
 
     <div class="for_padding">
-	    <div class="container">
+	    <div class="container kits__container">
 		    <div class="row">                  
 		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
 		            <div class="dc-nabory-image-block">
@@ -261,3 +264,4 @@
 		</div>
 	</div>
 </section>
+<?php require_once('includes/footer.php'); ?>

@@ -5,6 +5,14 @@
         clear: both;
     }
 }
+.logo__item {
+    display: inline-block;
+}
+.corvus {
+    img {
+        width: 200px;
+    }
+}
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -851,7 +859,7 @@ tr:first-child {
     }
     .basket__bottom {
         float: right;
-        width: 37%;
+        width: 46%;
     }
     .total__number {
         margin-left: 52%;
