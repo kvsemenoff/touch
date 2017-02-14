@@ -58,7 +58,8 @@ body, html{
 	ul{
 		li{
 			display: block;
-			padding: 0 50px;
+			// padding: 0 50px;
+			padding: 0 10px;
 			.dd-a-border{
 				display: block;
 				color: #261f1f;
@@ -80,12 +81,14 @@ body, html{
 }
 .dd-txt{
 	height: 73px;
+	text-align: center;
 	span{
 		font-family: "Lato-Semibold";
 		color:#303030;
 	}
 }
 .name-tovar{
+
 	span{
 		font-family: "Lato-Semibold";
 		color:#303030;
@@ -266,6 +269,9 @@ body, html{
 .dd-catalog-container2{
 	display:none;
 }
+.marg{
+	margin-top: 20px;
+}
 @media only screen and (min-width : 320px) {
 
 }
@@ -282,26 +288,42 @@ body, html{
 			width: 80px;
 		}
 		.dd-choose{
-			padding-left: 50px;
+			// padding-left: 50px;
+			padding-left: 9px;
 		}
 	}
 	.dd-txt{
 		width: 158px;
 		// width: 271px;
 	}
+	.dd-txt{
+		text-align: left;
+	}
 }
 
 @media only screen and (min-width : 768px) {
-	.dd-items{
-		.dd-price{
-			padding-left: 20px;
-			padding-left: 33px;
-			width: 122px;
+	.dd-catalog-akkordeon{
+		ul{
+			li{
+				display: block;
+				padding: 0 50px;
 		}
 	}
-	.dd-txt{
-		width: 271px;
+}
+.dd-items{
+	.dd-price{
+		padding-left: 20px;
+		padding-left: 33px;
+		width: 122px;
 	}
+}
+.dd-txt{
+	width: 271px;
+}
+.dd-choose{
+	padding-left: 50px;
+
+}
 }
 
 @media only screen and (min-width : 992px) {
