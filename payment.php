@@ -98,6 +98,8 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, earum perferendis, ad animi pariatur sint quae expedita alias magni, inventore in? Odio, magnam quas animi minima, ullam asperiores nesciunt delectus.
                             </span>
                         </label>
+                       </div>
+                       <div class="marg"> 
                         <ul class="logo__list">
                             <li class="logo__item"><a href="http://home.americanexpress.com/home/global_splash.html"><img src="../img/AmericanExpress50.jpg" alt=""></a></li>
                             <li class="logo__item"><a href=" www.dinersclub.com"><img src="../img/DCI-Logo-horz.jpg" alt=""></a></li>
