@@ -71,13 +71,13 @@
 
     <div class="for_padding">
 	    <div class="container kits__container">
-		    <div class="row">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		    <div class="row flex__cont">                  
+		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img__m">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5  col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	АНГЛИЙСКИЙ НАБОР
@@ -135,13 +135,13 @@
 
     <div class="for_padding">
 	    <div class="container kits__container">
-		    <div class="row">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		    <div class="row flex__cont">                  
+		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img__m">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	ВЕНСКИЙ НАБОР
@@ -199,13 +199,13 @@
 
     <div class="for_padding">
 	    <div class="container kits__container">
-		    <div class="row">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		    <div class="row flex__cont">                  
+		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img__m">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	РУССКИЙ НАБОР

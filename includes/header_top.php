@@ -109,20 +109,11 @@
                 <span class="total__text">ВСЕГО</span>
                 <span class="total__number">350шт</span>
                 <span class="total__totalprice">40 000$</span>
-            </div>
-            <div class="promo__block">
-                    <input type="text" name="promo__input" class="promo__input" placeholder="Введите промокод">
-                    <input type="submit" name="promo__submit" class="submit promo__submit" value="Активировать">
-            </div>
-            <div class="basket__bottom">
-                <a href="#" class="basket__continue-purchase">Продолжить покупки</a>
-                <input type="submit" class="submit basket__submit" name="basket__submit" id="basket__submit-id" value="Оформить заказ">
             </div>  
         </form>               
             
                 <div class="header__link_and_input">
                     <input class="header__promocode" type="text" name="" placeholder="Введите промокод">
-
                     <a class="header__link" href="">Продолжить&nbspпокупки</a>
                 </div>
 
