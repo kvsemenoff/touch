@@ -52,9 +52,11 @@ $(document).ready(function(){
     $(".checkbox").on("click", function(){
         if($(this).parent().parent().hasClass("dc-li")) {
             $(this).parent().parent().toggleClass("checked__box").siblings().removeClass("checked__box");
+            $(this).parent().parent().parent().parent().parent().parent().parent().find(".button-4").toggleClass("hover");
         }
         else if($(this).parent().parent().hasClass("dc-li1")) {
             $(this).parent().parent().toggleClass("checked__box1").siblings().removeClass("checked__box1");
+            $(this).parent().parent().parent().parent().parent().parent().parent().find(".button-4").toggleClass("hover");
         }
     })
 
