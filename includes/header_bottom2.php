@@ -1,6 +1,6 @@
 <section class=" section section_padding section_padding-db-header_bottom2">
 	<div class="container payment__container">
-		<ul>
+		<ul class="pad">
 			<li><a href="#">Каталог</a></li>
 			<li><a href="#">Готовые наборы</a></li>
 			<li><a href="#">Спецпредложения для регат</a></li>

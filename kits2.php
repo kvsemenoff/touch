@@ -72,7 +72,7 @@
     <div class="for_padding">
 	    <div class="container kits__container">
 		    <div class="row flex__cont">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img__m">
+		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img_m">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
@@ -136,7 +136,7 @@
     <div class="for_padding">
 	    <div class="container kits__container">
 		    <div class="row flex__cont">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img__m">
+		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img_m">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
@@ -200,7 +200,7 @@
     <div class="for_padding">
 	    <div class="container kits__container">
 		    <div class="row flex__cont">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img__m">
+		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img_m">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
