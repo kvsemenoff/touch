@@ -5,6 +5,10 @@ $(document).ready(function(){
         e.preventDefault();
         $('.section_padding-db-header_bottom2').slideToggle();
     });
+    $('.header__menu_mobile').click(function(e){
+        e.preventDefault();
+        $('.m__hidden').slideToggle();
+    });
     $(window).resize(function(){
         var $this = $(this);
         if($this.width() > 1248){
