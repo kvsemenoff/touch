@@ -46,7 +46,6 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
-
     $(".payment__checkbox").on("click", function(){
         $(this).closest(".payment__check-block").toggleClass("checked__box").siblings().removeClass("checked__box");
     })
@@ -58,7 +57,6 @@ $(document).ready(function(){
             $(this).parent().parent().toggleClass("checked__box1").siblings().removeClass("checked__box1");
         }
     })
-
 
     $("select option[value=1]").hide();
 
