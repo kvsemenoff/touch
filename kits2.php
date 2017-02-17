@@ -71,13 +71,13 @@
 
     <div class="for_padding">
 	    <div class="container kits__container">
-		    <div class="row">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		    <div class="row flex__cont">                  
+		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img_m">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5  col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	АНГЛИЙСКИЙ НАБОР
@@ -94,8 +94,7 @@
 				    					<span class="label"></span>
 									</label>
 		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
-		                		    <br>
-		                		    <span class="dc-wine-small">Вино красное полусухое</span>
+		                		    <div class="dc-wine-small">Вино красное полусухое</div>
 		                		</li>
 		                		<li class="dc-li">
 		                		    <label>
@@ -126,7 +125,7 @@
 		        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
 	                <div class="dc-nabory-to-basket dc-nabory-to-basket-padding">
 	                	<form method="POST" action="#">
-	                		<input type="button" name="" value="В корзину" class="button-4">
+	                		<input type="button" name="" value="В корзину" class="button-4 button41">
 	                	</form>
 	                </div>
 		        </div>
@@ -136,13 +135,13 @@
 
     <div class="for_padding">
 	    <div class="container kits__container">
-		    <div class="row">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		    <div class="row flex__cont">                  
+		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img_m">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	ВЕНСКИЙ НАБОР
@@ -159,8 +158,7 @@
 				    					<span class="label"></span>
 									</label>
 		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
-		                		    <br>
-		                		    <span class="dc-wine-small">Вино красное полусухое</span>
+	                		    <div class="dc-wine-small">Вино красное полусухое</div>
 		                		</li>
 		                		<li class="dc-li1">
 		                		    <label>
@@ -191,7 +189,7 @@
 		        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
 	                <div class="dc-nabory-to-basket dc-nabory-to-basket-padding">
 	                	<form method="POST" action="#">
-	                		<input type="button" name="" value="В корзину" class="button-4">
+	                		<input type="button" name="" value="В корзину" class="button-4 button42">
 	                	</form>
 	                </div>
 		        </div>		        
@@ -201,13 +199,13 @@
 
     <div class="for_padding">
 	    <div class="container kits__container">
-		    <div class="row">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		    <div class="row flex__cont">                  
+		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 img_m">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	РУССКИЙ НАБОР
@@ -224,8 +222,7 @@
 				    					<span class="label"></span>
 									</label>
 		                		    <span class="dc-wine">Вино Кастело Дель Соль</span>
-		                		    <br>
-		                		    <span class="dc-wine-small">Вино красное полусухое</span>
+		                		    <div class="dc-wine-small">Вино красное полусухое</div>
 		                		</li>
 		                		<li class="dc-li">
 		                		    <label>
@@ -256,7 +253,7 @@
 		        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
 	                <div class="dc-nabory-to-basket dc-nabory-to-basket-padding">
 	                	<form method="POST" action="#">
-	                		<input type="button" name="" value="В корзину" class="button-4">
+	                		<input type="button" name="" value="В корзину" class="button-4 button43">
 	                	</form>
 	                </div>
 		        </div>

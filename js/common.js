@@ -5,6 +5,10 @@ $(document).ready(function(){
         e.preventDefault();
         $('.section_padding-db-header_bottom2').slideToggle();
     });
+    $('.header__menu_mobile').click(function(e){
+        e.preventDefault();
+        $('.m__hidden').slideToggle();
+    });
     $(window).resize(function(){
         var $this = $(this);
         if($this.width() > 1248){
@@ -46,19 +50,19 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
-
     $(".payment__checkbox").on("click", function(){
         $(this).closest(".payment__check-block").toggleClass("checked__box").siblings().removeClass("checked__box");
     })
     $(".checkbox").on("click", function(){
         if($(this).parent().parent().hasClass("dc-li")) {
             $(this).parent().parent().toggleClass("checked__box").siblings().removeClass("checked__box");
+            $(this).parent().parent().parent().parent().parent().parent().parent().find(".button-4").toggleClass("hover");
         }
         else if($(this).parent().parent().hasClass("dc-li1")) {
             $(this).parent().parent().toggleClass("checked__box1").siblings().removeClass("checked__box1");
+            $(this).parent().parent().parent().parent().parent().parent().parent().find(".button-4").toggleClass("hover");
         }
     })
-
 
     $("select option[value=1]").hide();
 
