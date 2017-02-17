@@ -110,7 +110,11 @@
                             <li class="logo__item"><a href="http://www.visa.com"><img src="img/VerifiedbyVisa.jpg" alt=""></a></li>
                             <li class="logo__item"><a href="http://www.mastercard.com"><img src="img/secureCode_logo.gif" alt=""></a></li>
                             <li class="logo__item"><a href="http://home.americanexpress.com/home/global_splash.html"><img src="img/ax_guarenteed.gif" alt=""></a></li>
+
                             <li class="logo__item corvus"><a href="http://www.corvuspay.hr"><img src="img/orvus.png" alt=""></a></li>
+
+                            <li class="logo__item corvus"><a href="http://www.corvuspay.hr"><img src="img/сorvuspay.png" alt=""></a></li>
+
                         </ul>
                     </div>
                     <div class="agreement__block">

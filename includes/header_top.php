@@ -35,6 +35,8 @@
 <div class="header__popup">
         <form action="#" name="basket__form">
             <table class="basket__list">
+                <form action="#" name="basket__form">
+        <table class="basket__list">
                 <tr class="basket__item basket__item1">
                     <td class="basket__item-info">
                         <span class="basket__item-title">Вино Кастелло Дель Соль</span>
@@ -116,6 +118,17 @@
             <input class="header__promocode" type="text" name="" placeholder="Введите промокод">
             <a class="header__link" href="">Продолжить&nbspпокупки</a>
         </div> -->
+            <div class="basket__total">
+                <span class="total__text">ВСЕГО</span>
+                <span class="total__number">350шт</span>
+                <span class="total__totalprice">40 000$</span>
+            </div>  
+        </form>               
+            
+                <div class="header__link_and_input">
+                    <input class="header__promocode" type="text" name="" placeholder="Введите промокод">
+                    <a class="header__link" href="">Продолжить&nbspпокупки</a>
+                </div>
 
                 <div class="header__buttons">
                     <div class="container top__container">
