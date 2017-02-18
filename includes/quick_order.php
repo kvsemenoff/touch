@@ -12,7 +12,7 @@
 
     <div class="container kits__container">
 	    <div class="row">                  
-	        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
+	        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
 	            <div class="dc-nabory-menu">
 	                ГОТОВЫЕ&nbspНАБОРЫ
 	            </div>        
@@ -25,13 +25,13 @@
 
     <div class="for_padding">
 	    <div class="container kits__container">
-		    <div class="row">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		    <div class="row flex1__cont">                  
+		        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-7 col-lg-7 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	Набор №1
@@ -58,13 +58,13 @@
 
     <div class="for_padding">
 	    <div class="container kits__container">
-		    <div class="row">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		    <div class="row flex1__cont">                  
+		        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-7 col-lg-7 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	Набор №2
@@ -91,13 +91,13 @@
 
     <div class="for_padding">
 	    <div class="container kits__container">
-		    <div class="row">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		    <div class="row flex1__cont">                  
+		        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
 		        </div>
-		        <div class="col-md-7 col-lg-7 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+		        <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
 		            <div class="dc-mobile-align">
 		                <div class="dc-nabory-title">
 		                	Набор №3

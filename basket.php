@@ -1,5 +1,5 @@
 <?php require_once('includes/header.php'); ?>
-<?php require_once('includes/header_top.php'); ?>
+<?php require_once('includes/header_clear.php'); ?>
 <?php require_once('includes/header_bottom2.php'); ?>
 <div class="container payment__container">
 	<h2 class="basket__title">Корзина</h2>

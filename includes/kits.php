@@ -1,4 +1,4 @@
-﻿<section class="section dc_nabory_view">
+<section class="section dc_nabory_view">
     <div class="container kits__container">
         <div class="row">                  
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
@@ -29,7 +29,7 @@
 
     <div class="container kits__container">
 	    <div class="row">                  
-	        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
+	        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
 	            <div class="dc-nabory-menu">
 	                Меню&nbspнаборов
 	            </div>        
@@ -43,7 +43,7 @@
     <div class="for_padding">
 	    <div class="container kits__container">
 		    <div class="row flex__cont">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
@@ -76,7 +76,7 @@
     <div class="for_padding">
 	    <div class="container kits__container">
 		    <div class="row flex__cont">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
@@ -109,7 +109,7 @@
     <div class="for_padding">
 	    <div class="container kits__container">
 		    <div class="row flex__cont">                  
-		        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
 		            <div class="dc-nabory-image-block">
 		                <img class="dc-nabory-image" src="images/dc-kits.jpg">
 		            </div>        
